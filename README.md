@@ -42,7 +42,8 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: 
+a computer, internet connection
 
 <!--
 Example command:
@@ -65,7 +66,7 @@ Example commands:
 ```
 --->
 
-## 👥 Authors <a name="Salman Ahmad Khan"></a>
+## 👥 Authors <a name="Salman Ahmad Khan">Salman Ahmad Khan</a>
 
 👤 **Author1**
 
