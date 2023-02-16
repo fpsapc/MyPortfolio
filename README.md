@@ -20,7 +20,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#Salman Ahmad Khan)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -66,9 +66,9 @@ Example commands:
 ```
 --->
 
-## 👥 Authors <a name="Salman Ahmad Khan"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 Salman Ahmad Khan
+##👤 Salman Ahmad Khan
 
 - GitHub: [@githubhandle](https://github.com/fpsapc/MicroverseStudentProject1)
 - Twitter: [@twitterhandle](https://twitter.com/salman-ahmadkhan1987)
