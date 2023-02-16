@@ -9,7 +9,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#Portfolio)
-  - [🛠 Built With](#html css)
+  - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
@@ -20,7 +20,11 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
+<<<<<<< HEAD
 - [👥 Author](#Salman Ahmad Khan)
+=======
+- [👥 Authors](#authors)
+>>>>>>> 14c3e1fac901be83561a7f83a50745c0da670ef4
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -31,6 +35,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Hello Microverse Project] <a name="Salman's Portfolio"></a>
+## 🛠️ Built With <a name="built-with"></a>
+Html CSS
 
 **[Salman's Portfolio]** is a webpage where you can find my work and experience so far.
 
@@ -66,9 +72,9 @@ Example commands:
 ```
 --->
 
-## 👥 Authors <a name="Salman Ahmad Khan"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 Salman Ahmad Khan
+##👤 Salman Ahmad Khan
 
 - GitHub: [@githubhandle](https://github.com/fpsapc/MicroverseStudentProject1)
 - Twitter: [@twitterhandle](https://twitter.com/salman-ahmadkhan1987)
@@ -117,4 +123,10 @@ I would like to thank my coding partners at microverse, they help me to build my
 
 This project is [MIT](./LICENSE) licensed.
 
+<<<<<<< HEAD
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+=======
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+>>>>>>> 14c3e1fac901be83561a7f83a50745c0da670ef4
