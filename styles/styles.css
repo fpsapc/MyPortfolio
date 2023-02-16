@@ -1,39 +1,31 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(23, 23, 23);
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3e3c3c;
+  align-items: center;
+  padding: 0 2rem;
+  color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 92px;
 }
 
 .logo {
-  padding: 1.2rem;
-}
-
-.logo:hover {
-  color: #ff6b00;
-  cursor: pointer;
-}
-
-i {
-  padding: 20px;
-}
-
-i:hover {
-  cursor: pointer;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgb(87, 87, 87);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
   color: white;
 }
 
-div ul {
+/* div ul {
   display: none;
 }
 
@@ -45,36 +37,65 @@ ul li a {
   text-decoration: none;
   padding: 10px;
 }
-
-.container2 {
+ */
+.intropage {
+  background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-  color: white;
+  align-items: flex-start;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
 }
 
-.section1 h1 {
+.intro h1 {
   color: #ff6b00;
   font-size: 56px;
-  margin-top: 60px;
-  padding: 1rem;
+  line-height: 64px;
+  font-weight: 400;
+  width: 327px;
+  height: 124px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  letter-spacing: 0.37px;
 }
 
-.section1 h2 {
-  font-size: 20px;
-  padding: 1rem;
+.intro h2 {
+  width: 327px;
+  height: 27px;
+  top: 256px;
+  left: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.17px;
+  padding: 25px 0;
 }
 
-.section1 p {
+.intro p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fffff9;
   font-size: 16px;
-  padding: 20px 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 24px;
+  width: 327px;
+  height: 123px;
 }
 
 .backgroundimg {
   position: absolute;
   right: 0;
-  bottom: 5rem;
-  z-index: -1;
+  bottom: 8rem;
+  z-index: 0;
 }
 
 .social {
