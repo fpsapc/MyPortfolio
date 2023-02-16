@@ -66,9 +66,9 @@ Example commands:
 ```
 --->
 
-## 👥 Authors <a name="Salman Ahmad Khan">Salman Ahmad Khan</a>
+## 👥 Authors <a name="Salman Ahmad Khan"></a>
 
-👤 **Author1**
+👤 Salman Ahmad Khan
 
 - GitHub: [@githubhandle](https://github.com/fpsapc/MicroverseStudentProject1)
 - Twitter: [@twitterhandle](https://twitter.com/salman-ahmadkhan1987)
