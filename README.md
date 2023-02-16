@@ -21,7 +21,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
->>>>>>> 14c3e1fac901be83561a7f83a50745c0da670ef4
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -71,7 +70,7 @@ Example commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-##👤 Salman Ahmad Khan
+👤 Salman Ahmad Khan
 
 - GitHub: [@githubhandle](https://github.com/fpsapc/MicroverseStudentProject1)
 - Twitter: [@twitterhandle](https://twitter.com/salman-ahmadkhan1987)
