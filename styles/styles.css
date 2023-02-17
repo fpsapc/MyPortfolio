@@ -9,7 +9,7 @@ header {
   justify-content: space-between;
   background-color: #3e3c3c;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   color: rgb(255, 255, 255);
   width: 100vw;
   height: 92px;
@@ -25,19 +25,6 @@ header {
   color: white;
 }
 
-/* div ul {
-  display: none;
-}
-
-li {
-  list-style: none;
-}
-
-ul li a {
-  text-decoration: none;
-  padding: 10px;
-}
- */
 .intropage {
   background-color: #1c1a19;
   display: flex;
