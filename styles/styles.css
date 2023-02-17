@@ -25,6 +25,10 @@ header {
   color: white;
 }
 
+i {
+  cursor: pointer;
+}
+
 .intropage {
   background-color: #1c1a19;
   display: flex;
@@ -81,8 +85,16 @@ header {
 .backgroundimg {
   position: absolute;
   right: 0;
-  bottom: 8rem;
+  bottom: 10rem;
   z-index: 0;
+}
+
+div ul {
+  display: flex;
+}
+
+div ul li {
+  list-style: none;
 }
 
 .social {
