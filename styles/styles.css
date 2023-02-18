@@ -129,7 +129,7 @@ div ul li {
   height: 237px;
 }
 
-#work-subtitle {
+.work-subtitle {
   font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 32px;
@@ -139,7 +139,7 @@ div ul li {
   height: 36px;
 }
 
-#work-details {
+.work-details {
   width: 327px;
   height: 147px;
   color: #091e42;
@@ -181,7 +181,7 @@ div ul li {
   width: 61px;
 }
 
-#work-button {
+.work-button {
   width: 124px;
   height: 48px;
   background-color: #ff6b00;
@@ -193,4 +193,151 @@ div ul li {
   font-style: normal;
   color: white;
   border: none;
+}
+
+.projects {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+#project1 {
+  width: 327px;
+  height: 386px;
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/odinproject.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+.protitle {
+  color: white;
+  width: 295px;
+  height: 35px;
+  margin-top: 100px;
+}
+
+.prodetails {
+  width: 295px;
+  height: 87px;
+  color: white;
+}
+
+.proitem1 {
+  border: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.proitem2 {
+  border: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.proitem3 {
+  border: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.probutton {
+  margin-top: -50px;
+  width: 327px;
+  z-index: 1;
+}
+
+#project2 {
+  width: 327px;
+  height: 386px;
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/cafemenu.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+.pro2title {
+  margin-top: 0;
+}
+
+.pro2flex {
+  margin-top: 60px;
+}
+
+.projsecondpage {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+#project3 {
+  width: 327px;
+  height: 386px;
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/catphoto.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+#project4 {
+  width: 327px;
+  height: 386px;
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/photogallery.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+.projthirdpage {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+#project5 {
+  width: 327px;
+  height: 386px;
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/quiz.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
+}
+
+#project6 {
+  width: 327px;
+  height: 386px;
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/tributepage.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
 }
