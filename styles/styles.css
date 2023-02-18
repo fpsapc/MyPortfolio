@@ -39,7 +39,7 @@ i {
   height: 90vh;
   padding: 120px 24px;
   gap: 12px;
-  position: absolute;
+  position: relative;
 }
 
 .intro h1 {
@@ -103,14 +103,94 @@ div ul li {
 }
 
 .work {
-  display: flex;
+  display: grid;
   width: 100vw;
   height: 100vh;
-  background-color: #b80a0a;
-  z-index: 1;
+  background-color: #e5e5e5;
+  padding: 120px 24px;
+  gap: 12px;
+  align-content: center;
 }
 
-main {
+#work-title {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  border-bottom: 1px solid #212121;
+  width: 327px;
+  height: 83px;
+}
+
+#work-image {
+  margin-top: 60px;
+  width: 327px;
+  height: 237px;
+}
+
+#work-subtitle {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  width: 327px;
+  height: 36px;
+}
+
+#work-details {
+  width: 327px;
+  height: 147px;
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flex-item {
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  height: 40px;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.item1 {
+  width: 49px;
+}
+
+.item2 {
+  width: 56px;
+}
+
+.item3 {
+  width: 95px;
+}
+
+.item4 {
+  width: 61px;
+}
+
+#work-button {
+  width: 124px;
+  height: 48px;
+  background-color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  font-style: normal;
+  color: white;
+  border: none;
 }
