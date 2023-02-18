@@ -36,7 +36,7 @@ i {
   align-items: flex-start;
   margin: auto;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   padding: 120px 24px;
   gap: 12px;
   position: absolute;
@@ -100,4 +100,17 @@ div ul li {
 .social {
   cursor: pointer;
   z-index: 1;
+}
+
+.work {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #b80a0a;
+  z-index: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
