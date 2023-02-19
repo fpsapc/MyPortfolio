@@ -82,8 +82,8 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[i have to add my work details in the project today]**
-- [ ] **[i have to add footer section as well]**
+- [ ] **[i have to add more detail to the project]**
+- [ ] **[i have to add navigation links to the project]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
