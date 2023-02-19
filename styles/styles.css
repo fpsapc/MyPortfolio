@@ -495,6 +495,7 @@ div ul li {
 }
 
 .centerbtn {
+  margin-top: 10px;
   display: flex;
   width: 327px;
   align-items: center;
