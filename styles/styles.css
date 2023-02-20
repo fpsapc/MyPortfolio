@@ -85,8 +85,7 @@ i {
 .backgroundimg {
   position: absolute;
   right: 0;
-  bottom: 10rem;
-  z-index: 0;
+  bottom: 0;
 }
 
 div ul {
