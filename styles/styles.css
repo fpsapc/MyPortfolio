@@ -185,7 +185,7 @@ div ul li {
 .work-button {
   width: 124px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #f55800;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 24px;
@@ -200,8 +200,11 @@ div ul li {
   cursor: pointer;
   background-color: #fff5e1;
   color: #f55800;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 0 1em #ff6b00;
+}
+
+.work-button:focus {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .projects {
@@ -505,13 +508,6 @@ textarea {
   width: 327px;
   align-items: center;
   justify-content: center;
-}
-
-.getintouchbtn:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 0 1em #ff6b00;
 }
 
 footer {
