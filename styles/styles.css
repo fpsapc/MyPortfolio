@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  min-width: 375px;
+  position: relative;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +43,6 @@ i {
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
-  height: 90vh;
   padding: 120px 24px;
   gap: 12px;
   position: relative;
@@ -59,7 +63,7 @@ i {
 .intro h2 {
   width: 327px;
   height: 27px;
-  top: 256px;
+  top: 200px;
   left: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -87,7 +91,7 @@ i {
 .backgroundimg {
   position: absolute;
   right: 0;
-  bottom: 10rem;
+  bottom: -1em;
   z-index: 0;
 }
 
@@ -106,7 +110,6 @@ div ul li {
 
 .work {
   display: grid;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -194,6 +197,7 @@ div ul li {
   font-style: normal;
   color: white;
   border: none;
+  margin-top: 1em;
 }
 
 .work-button:hover {
@@ -209,7 +213,6 @@ div ul li {
 
 .projects {
   display: grid;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -287,7 +290,6 @@ div ul li {
 
 .projsecondpage {
   display: grid;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -320,7 +322,6 @@ div ul li {
 
 .projthirdpage {
   display: grid;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -354,7 +355,6 @@ div ul li {
 #aboutme {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   background-color: #1c1a19;
   align-content: center;
   padding: 120px 24px;
@@ -428,7 +428,6 @@ div ul li {
 #languages {
   display: flex;
   flex-direction: column;
-  height: 120vh;
   background-color: #1c1a19;
   align-content: center;
   padding: 120px 24px;
@@ -467,7 +466,6 @@ div ul li {
 #getintouch {
   display: flex;
   flex-direction: column;
-  height: 90vh;
   background-color: white;
   align-content: center;
   padding: 120px 24px;
