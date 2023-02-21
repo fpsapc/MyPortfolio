@@ -71,6 +71,7 @@ Example commands:
 ## 👥 Authors <a name="authors"></a>
 
 👤 Salman Ahmad Khan
+👤 Hernan Zamora (@hernandanielzamora)
 
 - GitHub: [@githubhandle](https://github.com/fpsapc/MicroverseStudentProject1)
 - Twitter: [@twitterhandle](https://twitter.com/salman-ahmadkhan1987)
