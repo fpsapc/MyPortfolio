@@ -198,6 +198,10 @@ div ul li {
 
 .work-button:hover {
   cursor: pointer;
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 1em #ff6b00;
 }
 
 .projects {
@@ -495,6 +499,13 @@ div ul li {
   width: 327px;
   align-items: center;
   justify-content: center;
+}
+
+.getintouchbtn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 1em #ff6b00;
 }
 
 footer {
