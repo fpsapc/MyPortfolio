@@ -462,9 +462,10 @@ div ul li {
 }
 
 #getintouch {
-  display: grid;
-  height: 100vh;
-  background-color: #f5f3f3;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-color: white;
   align-content: center;
   padding: 120px 24px;
 }
@@ -479,14 +480,19 @@ div ul li {
   line-height: 44px;
   font-weight: 700;
   margin-bottom: 30px;
+  font-style: normal;
 }
 
 .input {
   margin-top: 25px;
   padding: 12px;
-  background-color: #fcfbfb;
+  background-color: white;
   border: none;
   font-family: "Inter", sans-serif;
+}
+
+textarea {
+  background-color: #fbf8f7;
 }
 
 .border {
@@ -509,7 +515,7 @@ div ul li {
 }
 
 footer {
-  height: 70px;
+  height: 10vh;
 }
 
 .footercenter {
