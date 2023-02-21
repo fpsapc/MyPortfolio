@@ -11,8 +11,11 @@ header {
   align-items: center;
   padding: 0 2rem;
   color: rgb(255, 255, 255);
-  width: 100vw;
   height: 92px;
+}
+
+main {
+  width: 100vw;
 }
 
 .logo {
@@ -35,7 +38,6 @@ i {
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
-  width: 100vw;
   height: 90vh;
   padding: 120px 24px;
   gap: 12px;
@@ -104,7 +106,6 @@ div ul li {
 
 .work {
   display: grid;
-  width: 100vw;
   height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
@@ -201,7 +202,6 @@ div ul li {
 
 .projects {
   display: grid;
-  width: 100vw;
   height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
@@ -280,7 +280,6 @@ div ul li {
 
 .projsecondpage {
   display: grid;
-  width: 100vw;
   height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
@@ -314,7 +313,6 @@ div ul li {
 
 .projthirdpage {
   display: grid;
-  width: 100vw;
   height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
@@ -349,7 +347,6 @@ div ul li {
 #aboutme {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: 100vh;
   background-color: #1c1a19;
   align-content: center;
@@ -424,7 +421,6 @@ div ul li {
 #languages {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: 120vh;
   background-color: #1c1a19;
   align-content: center;
@@ -463,7 +459,6 @@ div ul li {
 
 #getintouch {
   display: grid;
-  width: 100vw;
   height: 100vh;
   background-color: #f5f3f3;
   align-content: center;
@@ -503,14 +498,12 @@ div ul li {
 }
 
 footer {
-  width: 327px;
   height: 70px;
 }
 
 .footercenter {
   justify-content: center;
   align-items: center;
-  width: 100vw;
 }
 
 .social {
