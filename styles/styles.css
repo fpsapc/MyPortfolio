@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  min-width: 375px;
+  position: relative;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -11,7 +16,6 @@ header {
   align-items: center;
   padding: 0 2rem;
   color: rgb(255, 255, 255);
-  width: 100vw;
   height: 92px;
 }
 
@@ -35,8 +39,6 @@ i {
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
-  width: 100vw;
-  height: 90vh;
   padding: 120px 24px;
   gap: 12px;
   position: relative;
@@ -57,7 +59,7 @@ i {
 .intro h2 {
   width: 327px;
   height: 27px;
-  top: 256px;
+  top: 200px;
   left: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -85,7 +87,7 @@ i {
 .backgroundimg {
   position: absolute;
   right: 0;
-  bottom: 10rem;
+  bottom: -1em;
   z-index: 0;
 }
 
@@ -104,8 +106,6 @@ div ul li {
 
 .work {
   display: grid;
-  width: 100vw;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -184,7 +184,7 @@ div ul li {
 .work-button {
   width: 124px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #f55800;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 24px;
@@ -193,16 +193,22 @@ div ul li {
   font-style: normal;
   color: white;
   border: none;
+  margin-top: 1em;
 }
 
 .work-button:hover {
   cursor: pointer;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.work-button:focus {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .projects {
   display: grid;
-  width: 100vw;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -280,8 +286,6 @@ div ul li {
 
 .projsecondpage {
   display: grid;
-  width: 100vw;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -314,8 +318,6 @@ div ul li {
 
 .projthirdpage {
   display: grid;
-  width: 100vw;
-  height: 100vh;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
@@ -349,8 +351,6 @@ div ul li {
 #aboutme {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
   background-color: #1c1a19;
   align-content: center;
   padding: 120px 24px;
@@ -424,8 +424,6 @@ div ul li {
 #languages {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 120vh;
   background-color: #1c1a19;
   align-content: center;
   padding: 120px 24px;
@@ -462,10 +460,9 @@ div ul li {
 }
 
 #getintouch {
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  background-color: #f5f3f3;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
   align-content: center;
   padding: 120px 24px;
 }
@@ -480,14 +477,19 @@ div ul li {
   line-height: 44px;
   font-weight: 700;
   margin-bottom: 30px;
+  font-style: normal;
 }
 
 .input {
   margin-top: 25px;
   padding: 12px;
-  background-color: #fcfbfb;
+  background-color: white;
   border: none;
   font-family: "Inter", sans-serif;
+}
+
+textarea {
+  background-color: #fbf8f7;
 }
 
 .border {
@@ -503,14 +505,12 @@ div ul li {
 }
 
 footer {
-  width: 327px;
-  height: 70px;
+  height: 10vh;
 }
 
 .footercenter {
   justify-content: center;
   align-items: center;
-  width: 100vw;
 }
 
 .social {
