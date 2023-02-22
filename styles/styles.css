@@ -94,13 +94,6 @@ i {
   height: 123px;
 }
 
-.backgroundimg {
-  position: absolute;
-  right: 0;
-  bottom: -1em;
-  z-index: 0;
-}
-
 div ul {
   display: flex;
 }
@@ -579,5 +572,66 @@ footer {
 
   .intro {
     width: 35em;
+    padding: 2em 8em;
+  }
+
+  .intro h1 {
+    color: #ff6b00;
+    font-size: 72px;
+    line-height: 82px;
+    font-weight: 400;
+    width: 566px;
+    height: 160px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    letter-spacing: 0.37px;
+  }
+
+  .intro h2 {
+    width: 566px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff5e1;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    order: 1;
+  }
+
+  .intro p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #f4f6f7;
+    font-size: 20px;
+    line-height: 32px;
+    width: 566px;
+    height: 123px;
+    order: 2;
+  }
+
+  .socialintro ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialintro ul li {
+    list-style: none;
+  }
+
+  .social1 {
+    height: 35px;
+    width: 35px;
+  }
+
+  .socialintro {
+    position: absolute;
+    left: 2%;
+    top: 35%;
   }
 }
