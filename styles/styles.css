@@ -132,14 +132,28 @@ div ul li {
   height: 237px;
 }
 
+.work-card {
+  height: 400px;
+  margin-bottom: 30px;
+}
+
 .work-subtitle {
   font-family: "Crete Round", serif;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 52px;
   color: #091e42;
-  width: 327px;
-  height: 36px;
+  width: 448px;
+  height: 48px;
+}
+
+.work-details {
+  width: 448px;
+  height: 140px;
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .work-details {
@@ -563,6 +577,7 @@ footer {
     cursor: pointer;
   }
 
+  /* intro section in desktop */
   .intropage {
     background-image: url(/img/Illustration-header1.svg);
     background-repeat: no-repeat;
@@ -633,5 +648,63 @@ footer {
     position: absolute;
     left: 2%;
     top: 35%;
+  }
+
+  /* work section in desktop */
+
+  .work {
+    padding: 120px 152px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #work-title {
+    color: #091e42;
+    width: auto;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 100px;
+  }
+
+  .line {
+    border: 1px solid #212121;
+    width: 794px;
+    order: 1;
+  }
+
+  #work-image {
+    margin-top: 0;
+    margin-right: 24px;
+    width: 643px;
+    height: 448px;
+    background-image: url(/img/odinproject.jpg);
+  }
+
+  .work-card {
+    display: flex;
+    height: 448px;
+  }
+
+  .work-subtitle {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 448px;
+    height: 48px;
+  }
+
+  .work-details {
+    width: 448px;
+    height: 140px;
+    color: #091e42;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
   }
 }
