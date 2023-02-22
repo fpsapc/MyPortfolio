@@ -9,6 +9,8 @@ html {
   position: relative;
 }
 
+/* Header section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -29,10 +31,15 @@ header {
   color: white;
 }
 
+.disapear {
+  display: none;
+}
+
 i {
   cursor: pointer;
 }
 
+/* introduction section */
 .intropage {
   background-color: #1c1a19;
   display: flex;
@@ -42,6 +49,9 @@ i {
   padding: 120px 24px;
   gap: 12px;
   position: relative;
+  background-image: url(/img/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
 .intro h1 {
@@ -515,4 +525,59 @@ footer {
   cursor: pointer;
   z-index: 1;
   padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* header section in desktop */
+  header {
+    padding: 0 10rem;
+  }
+
+  .logo {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .nav-links i {
+    display: none;
+  }
+
+  .disapear {
+    display: contents;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links li {
+    list-style: none;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 10px 12px;
+  }
+
+  .menubtn {
+    cursor: pointer;
+  }
+
+  .intropage {
+    background-image: url(/img/Illustration-header1.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+  }
+
+  .intro {
+    width: 35em;
+  }
 }
