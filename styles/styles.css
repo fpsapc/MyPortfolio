@@ -31,10 +31,9 @@ header {
 }
 
 .logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(360deg);
   color: #f55800;
   transition: 0.2s;
-  transform: rotate(360deg);
 }
 
 .disapear {
@@ -490,7 +489,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-
   /* header section in desktop */
   header {
     padding: 0 10rem;
