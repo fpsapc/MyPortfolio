@@ -49,7 +49,7 @@ i {
   padding: 120px 24px;
   gap: 12px;
   position: relative;
-  background-image: url(/img/Illustration.png);
+  background-image: url("/img/Illustration.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -130,7 +130,7 @@ div ul li {
   margin-top: 60px;
   width: 327px;
   height: 237px;
-  background-image: url(/img/Img\ Placeholder1.svg);
+  background-image: url("/img/Img\ Placeholder1.svg");
   background-size: contain;
 }
 
@@ -316,7 +316,7 @@ div ul li {
   padding: 120px 24px;
   border-bottom: 1px solid white;
   top: calc(50% - 0px / 2 + 0.5px);
-  background-image: url(/img/illustration-about-me-mobile.png);
+  background-image: url("/img/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -356,7 +356,7 @@ div ul li {
 
 .rectangle {
   position: absolute;
-  background-image: url(/img/Rectangle\ 551.png);
+  background-image: url("/img/Rectangle\ 551.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -366,7 +366,7 @@ div ul li {
 
 .square {
   position: absolute;
-  background-image: url(/img/Rectangle\ 561.png);
+  background-image: url("/img/Rectangle\ 561.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -376,7 +376,7 @@ div ul li {
 
 .circle {
   position: absolute;
-  background-image: url(/img/Rectangle\ 571.png);
+  background-image: url("/img/Rectangle\ 571.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -537,7 +537,7 @@ footer {
 
   /* intro section in desktop */
   .intropage {
-    background-image: url(/img/Illustration-header1.svg);
+    background-image: url("/img/Illustration-header1.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: contain;
@@ -639,7 +639,7 @@ footer {
     margin-right: 24px;
     width: 643px;
     height: 448px;
-    background-image: url(/img/Img\ Placeholder1.svg);
+    background-image: url("/img/Img\ Placeholder1.svg");
   }
 
   .work-card {
@@ -782,7 +782,7 @@ footer {
     align-content: center;
     padding: 120px 152px;
     top: calc(50% - 0px / 2 + 0.5px);
-    background-image: url(/img/Frame1.svg);
+    background-image: url("/img/Frame1.svg");
     background-repeat: no-repeat;
     background-position: 100% 50%;
     border: none;
@@ -826,7 +826,7 @@ footer {
 
   .rectangle {
     position: absolute;
-    background-image: url(/img/Rectangle\ 551.png);
+    background-image: url("/img/Rectangle\ 551.png");
     background-repeat: no-repeat;
     width: 26px;
     height: 26px;
@@ -836,7 +836,7 @@ footer {
 
   .square {
     position: absolute;
-    background-image: url(/img/Rectangle\ 561.png);
+    background-image: url("/img/Rectangle\ 561.png");
     background-repeat: no-repeat;
     width: 26px;
     height: 26px;
@@ -846,7 +846,7 @@ footer {
 
   .circle {
     position: absolute;
-    background-image: url(/img/Rectangle\ 571.png);
+    background-image: url("/img/Rectangle\ 571.png");
     background-repeat: no-repeat;
     width: 26px;
     height: 26px;
