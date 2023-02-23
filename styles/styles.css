@@ -130,6 +130,8 @@ div ul li {
   margin-top: 60px;
   width: 327px;
   height: 237px;
+  background-image: url(/img/Img\ Placeholder1.svg);
+  background-size: contain;
 }
 
 .work-card {
@@ -140,20 +142,11 @@ div ul li {
 .work-subtitle {
   font-family: "Crete Round", serif;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 32px;
+  line-height: 44px;
   color: #091e42;
-  width: 448px;
-  height: 48px;
-}
-
-.work-details {
-  width: 448px;
-  height: 140px;
-  color: #091e42;
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  width: 327px;
+  height: 36px;
 }
 
 .work-details {
@@ -232,12 +225,10 @@ div ul li {
   align-content: center;
 }
 
-#project1 {
+.project-card {
   width: 327px;
   height: 386px;
   position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/odinproject.jpg);
-  background-size: cover;
   display: grid;
   padding: 120px 24px;
   gap: 12px;
@@ -248,7 +239,7 @@ div ul li {
   color: white;
   width: 295px;
   height: 35px;
-  margin-top: 100px;
+  margin-top: 20%;
 }
 
 .prodetails {
@@ -276,93 +267,40 @@ div ul li {
 }
 
 .probutton {
-  margin-top: -50px;
+  position: absolute;
+  bottom: 0;
   width: 327px;
   z-index: 1;
 }
 
-#project2 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/cafemenu.jpg);
+#bg-pro1 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
   background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
 }
 
-.pro2title {
-  margin-top: 0;
-}
-
-.pro2flex {
-  margin-top: 60px;
-}
-
-.projsecondpage {
-  display: grid;
-  background-color: #e5e5e5;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
-}
-
-#project3 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/catphoto.jpg);
+#bg-pro2 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
   background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
 }
 
-#project4 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/photogallery.jpg);
+#bg-pro3 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
   background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
 }
 
-.projthirdpage {
-  display: grid;
-  background-color: #e5e5e5;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
-}
-
-#project5 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/quiz.jpg);
+#bg-pro4 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
   background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
 }
 
-#project6 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/tributepage.jpg);
+#bg-pro5 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
   background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
+}
+
+#bg-pro6 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+  background-size: cover;
 }
 
 #aboutme {
@@ -653,7 +591,7 @@ footer {
   /* work section in desktop */
 
   .work {
-    padding: 120px 152px;
+    padding: 120px 152px 0 152px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -681,12 +619,13 @@ footer {
     margin-right: 24px;
     width: 643px;
     height: 448px;
-    background-image: url(/img/odinproject.jpg);
+    background-image: url(/img/Img\ Placeholder1.svg);
   }
 
   .work-card {
     display: flex;
     height: 448px;
+    margin: 1em;
   }
 
   .work-subtitle {
@@ -706,5 +645,92 @@ footer {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     line-height: 28px;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e5e5e5;
+    padding: 0 152px 120px 152px;
+    gap: 12px;
+    align-content: center;
+  }
+
+  .project-card {
+    width: 327px;
+    height: 386px;
+    position: relative;
+    display: grid;
+    padding: 120px 24px;
+    gap: 12px;
+    align-content: center;
+  }
+
+  #bg-pro1 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
+    background-size: cover;
+  }
+
+  #bg-pro2 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
+    background-size: cover;
+  }
+
+  #bg-pro3 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+    background-size: cover;
+  }
+
+  #bg-pro4 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
+    background-size: cover;
+  }
+
+  #bg-pro5 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
+    background-size: cover;
+  }
+
+  #bg-pro6 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+    background-size: cover;
+  }
+
+  .protitle {
+    color: white;
+    width: 295px;
+    height: 35px;
+    margin-top: 20%;
+  }
+
+  .prodetails {
+    width: 295px;
+    height: 87px;
+    color: white;
+  }
+
+  .proitem1 {
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .proitem2 {
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .proitem3 {
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .probutton {
+    position: absolute;
+    bottom: 0;
+    width: 327px;
+    z-index: 1;
   }
 }
