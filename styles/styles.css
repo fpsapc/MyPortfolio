@@ -456,9 +456,13 @@ div ul li {
   width: 327px;
 }
 
-textarea {
+#textarea {
+  margin-top: 25px;
+  padding: 12px;
   background-color: #fbf8f7;
   width: 327px;
+  border: none;
+  font-family: "Inter", sans-serif;
 }
 
 .border {
