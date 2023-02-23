@@ -453,10 +453,12 @@ div ul li {
   background-color: white;
   border: none;
   font-family: "Inter", sans-serif;
+  width: 327px;
 }
 
 textarea {
   background-color: #fbf8f7;
+  width: 327px;
 }
 
 .border {
@@ -472,7 +474,7 @@ textarea {
 }
 
 footer {
-  height: 10vh;
+  height: 8vh;
 }
 
 .footercenter {
@@ -862,6 +864,102 @@ footer {
   .marginlistitems {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 50px 0;
+  }
+
+  .headings {
+    display: block;
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    width: 228px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.37px;
+    text-align: center;
+  }
+
+  .listitems {
+    list-style: none;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 400;
+    color: white;
+    height: 60px;
+  }
+
+  #getintouch {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    align-content: center;
+    padding: 120px 152px;
+  }
+
+  .getintouch-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intouch {
+    color: #262626;
+    text-align: left;
+    width: 455px;
+    height: 256px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .input {
+    padding: 12px;
+    background-color: white;
+    color: #979493;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 684px;
+  }
+
+  #textarea {
+    background-color: #fbf8f7;
+    color: #3c3a39;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 684px;
+  }
+
+  .border {
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .centerbtn {
+    margin-top: 10px;
+    display: flex;
+    width: 327px;
+    justify-content: flex-start;
+  }
+
+  .social {
+    cursor: pointer;
+    z-index: 1;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .footercenter {
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
   }
 }
