@@ -10,7 +10,6 @@ html {
 }
 
 /* Header section */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -31,8 +30,21 @@ header {
   color: white;
 }
 
+.logo:hover {
+  transform: scale(1.2);
+  color: #f55800;
+  transition: 0.2s;
+  transform: rotate(360deg);
+}
+
 .disapear {
   display: none;
+}
+
+.nav-links a:hover {
+  transform: scale(1.2);
+  color: #f55800;
+  transition: 0.2s;
 }
 
 i {
@@ -478,6 +490,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+
   /* header section in desktop */
   header {
     padding: 0 10rem;
@@ -594,7 +607,6 @@ footer {
   }
 
   /* work section in desktop */
-
   .work {
     padding: 120px 152px 0 152px;
     align-content: center;
