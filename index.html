@@ -1,257 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Salman Ahmad Khan's Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <title>Salman Ahmad Khan's Portfolio</title>
-</head>
+  <body>
+    <header>
+      <a class="logo" href="#home">My Logo</a>
+      <nav>
+        <ul class="nav-links">
+          <i id="hamerberg" class="fa-sharp fa-solid fa-bars"></i>
+          <li class="disapear">
+            <a href="#home">Portfolio</a>
+          </li>
+          <li class="disapear">
+            <a href="#aboutme">About</a>
+          </li>
+          <li class="disapear">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="disapear">
+            <img class="menubtn" src="/img/menu.png" alt="" />
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <a class="logo" href="#home">My Logo</a>
-    <nav>
-      <i class="fa-sharp fa-solid fa-bars"></i>
-    </nav>
-  </header>
+    <main>
+      <section class="intropage">
+        <div class="intro">
+          <h1>
+            Hey There. <br />
+            I'm Salman
+          </h1>
+          <h2>I'm a Software Developer</h2>
+          <p>
+            I can help you to build a product, feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don't hesitate to contact me.
+          </p>
+        </div>
+        <!-- 
+        use class sociallinks for social elements -->
+        <div class="socialintro">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/fpsapc"
+                target="_blank"
+                rel="noopener"
+              >
+                <img class="social1" src="/img/Disabled.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/salman-ahmad1987"
+                target="_blank"
+                rel="noopener"
+              >
+                <img class="social1" src="/img/Disabled-1.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/vivimedia/about/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img class="social1" src="/img/Enabled.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/salman-ahmadkhan1987"
+                target="_blank"
+                rel="noopener"
+              >
+                <img class="social1" src="/img/Disabled-2.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:fpsapc@gmail.com" target="_blank" rel="noopener">
+                <img class="social1" src="/img/Disabled-3.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="work">
+        <div id="work-title">
+          My Recent Works
+          <div class="line"></div>
+        </div>
+        <div class="work-card">
+          <div id="work-image">
 
-  <main>
-    <section class="intropage">
-      <div class="intro">
-        <h1>Hey There. I'm Salman</h1>
-        <h2>I'm a Software Developer</h2>
+           </div>
+          <div class="work-subtitle">
+            Multi-Post Stories
+            <p class="work-details">
+              A daily selection of privately personalized reads; o accounts or
+              sign-ups required. has been the idustry's standard dummy text ever
+              since the 1500s, when an unknown printer took a standard dummy
+              text.
+            </p>
+            <div class="flex">
+              <p class="flex-item item1">css</p>
+              <p class="flex-item item2">html</p>
+              <p class="flex-item item3">bootstrap</p>
+              <p class="flex-item item4">Ruby</p>
+            </div>
+            <button class="work-button">See Project</button>
+          </div>
+        </div>
+      </section>
+      <!-- Section Projects -->
+      <section class="projects">
+        <!-- Project Cards  -->
+        <div id="bg-pro1" class="project-card">
+          <div class="card-text">
+            <h2 class="work-subtitle protitle hide">
+            Professional Art Printing Data
+            </h2>
+            <p class="work-details prodetails hide">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.
+            </p>
+            <div class="flex hide">
+              <p class="flex-item item2 proitem2">html</p>
+              <p class="flex-item item3 proitem3">bootstrap</p>
+              <p class="flex-item item1 proitem1">Ruby</p>
+            </div>
+          </div>
+          <button class="work-button probutton">
+            See Project
+          </button>
+        </div>
+        <div id="bg-pro2" class="project-card">
+          <div class="card-text">
+            <h2 class="work-subtitle protitle">
+              Data Dashboard Healthcare
+            </h2>
+            <p class="work-details prodetails">
+              A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.
+            </p>
+            <div class="flex">
+              <p class="flex-item item2 proitem2">html</p>
+              <p class="flex-item item3 proitem3">bootstrap</p>
+              <p class="flex-item item1 proitem1">Ruby</p>
+            </div>
+          </div>
+          <button 
+           class="work-button probutton hide unhide">
+            See Project
+          </button>
+        </div>
+        <div id="bg-pro3" class="project-card">
+          <div class="card-text">
+            <h2 class="work-subtitle protitle">
+              Website Protfolio 
+            </h2>
+            <p class="work-details prodetails">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.
+            </p>
+            <div class="flex">
+              <p class="flex-item item2 proitem2">html</p>
+              <p class="flex-item item3 proitem3">bootstrap</p>
+              <p class="flex-item item1 proitem1">Ruby</p>
+            </div>
+          </div>
+          <button 
+           class="work-button probutton hide">
+            See Project
+          </button>
+        </div>
+        <div id="bg-pro4" class="project-card">
+          <div class="card-text">
+            <h2 class="work-subtitle protitle">
+            Professional Art Printing Data
+            </h2>
+            <p class="work-details prodetails">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.
+            </p>
+            <div class="flex">
+              <p class="flex-item item2 proitem2">html</p>
+              <p class="flex-item item3 proitem3">bootstrap</p>
+              <p class="flex-item item1 proitem1">Ruby</p>
+            </div>
+          </div>
+          <button 
+           class="work-button probutton hide">
+            See Project
+          </button>
+        </div>
+        <div id="bg-pro5" class="project-card">
+          <div class="card-text">
+            <h2 class="work-subtitle protitle">
+              Data Dashboard Healthcare
+            </h2>
+            <p class="work-details prodetails">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.
+            </p>
+            <div class="flex">
+              <p class="flex-item item2 proitem2">html</p>
+              <p class="flex-item item3 proitem3">bootstrap</p>
+              <p class="flex-item item1 proitem1">Ruby</p>
+            </div>
+          </div>
+          <button 
+           class="work-button probutton hide">
+            See Project
+          </button>
+        </div>
+        <div id="bg-pro6" class="project-card">
+          <div class="card-text">
+            <h2 class="work-subtitle protitle">
+              Website Protfolio 
+            </h2>
+            <p class="work-details prodetails">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.
+            </p>
+            <div class="flex">
+              <p class="flex-item item2 proitem2">html</p>
+              <p class="flex-item item3 proitem3">bootstrap</p>
+              <p class="flex-item item1 proitem1">Ruby</p>
+            </div>
+          </div>
+          <button 
+           class="work-button probutton hide">
+            See Project
+          </button>
+        </div>
+      </section>
+      <section id="aboutme">
+        <h2 id="me">About me</h2>
         <p>
           I can help you to build a product, feature or website Look through
           some of my work and experience! If you like what you see and have a
           project you need coded, don't hesitate to contact me.
         </p>
-      </div>
-      <!-- 
-        use class sociallinks for social elements -->
-      <div class="sociallinks">
-        <ul>
-          <li>
-            <a href="https://github.com/fpsapc" target="_blank" rel="noopener"> <img class="social1"
-                src="/img/Disabled.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/salman-ahmad1987" target="_blank" rel="noopener"> <img class="social1"
-                src="/img/Disabled-1.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/vivimedia/about/" target="_blank" rel="noopener"> <img
-                class="social1" src="/img/Enabled.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/salman-ahmadkhan1987" target="_blank" rel="noopener"> <img class="social1"
-                src="/img/Disabled-2.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="mailto:fpsapc@gmail.com" target="_blank" rel="noopener"> <img class="social1"
-                src="/img/Disabled-3.png" alt="" /></a>
-          </li>
-        </ul>
-      </div>
-      <img class="backgroundimg" src="/img/Illustration.png" alt="" />
-    </section>
-    <section class="work">
-      <div>
-
-
-        <h2 id="work-title">My Recent Works</h2>
-        <img id="work-image" src="/img/odinproject.jpg" alt="">
-        <h2 class="work-subtitle">Multi-Post Stories</h2>
-        <p class="work-details">A daily selection of privately personalized reads; o accounts or sign-ups required. has
-          been the idustry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy
-          text.
-        </p>
-        <div class="flex">
-          <p class="flex-item item1">css</p>
-          <p class="flex-item item2">html</p>
-          <p class="flex-item item3">bootstrap</p>
-          <p class="flex-item item4">Ruby</p>
-        </div>
-        <button class="work-button">See Project</button>
-      </div>
-    </section>
-    <section class="projects">
-      <div id="project1">
-        <h2 class="work-subtitle protitle">Te Odin Project</h2>
-        <p class="work-details prodetails">My first project when I start my web development journey</p>
-        <div class="flex">
-          <p class="flex-item item1 proitem1">css</p>
-          <p class="flex-item item2 proitem2">html</p>
-          <p class="flex-item item3 proitem3">bootstrap</p>
-        </div>
-      </div>
-      <button class="work-button probutton">See Project</button>
-      <div id="project2">
-        <h2 class="work-subtitle protitle pro2title">Cafe Bill</h2>
-        <p class="work-details prodetails">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid debitis
-          nulla? Nulla, doloribus id consequatur.</p>
-        <div class="flex pro2flex">
-          <p class="flex-item item1 proitem1">css</p>
-          <p class="flex-item item2 proitem2">html</p>
-          <p class="flex-item item3 proitem3">bootstrap</p>
-        </div>
-      </div>
-      <button class="work-button probutton">See Project</button>
-    </section>
-    <section class="projsecondpage">
-      <div id="project3">
-        <h2 class="work-subtitle protitle">Cat's Photo</h2>
-        <p class="work-details prodetails">Cat's Photo Project built on freecodecamp.org</p>
-        <div class="flex">
-          <p class="flex-item item1 proitem1">css</p>
-          <p class="flex-item item2 proitem2">html</p>
-          <p class="flex-item item3 proitem3">bootstrap</p>
-        </div>
-      </div>
-      <button class="work-button probutton">See Project</button>
-      <div id="project4">
-        <h2 class="work-subtitle protitle pro2title">Photo Gallery</h2>
-        <p class="work-details prodetails">Cat's Photo Gallery implementation of CSS flexbox</p>
-        <div class="flex pro2flex">
-          <p class="flex-item item1 proitem1">css</p>
-          <p class="flex-item item2 proitem2">html</p>
-          <p class="flex-item item3 proitem3">bootstrap</p>
-        </div>
-      </div>
-      <button class="work-button probutton">See Project</button>
-    </section>
-    <section class="projthirdpage">
-      <div id="project5">
-        <h2 class="work-subtitle protitle">The Quiz</h2>
-        <p class="work-details prodetails">Make a quiz templete using html forms</p>
-        <div class="flex">
-          <p class="flex-item item1 proitem1">css</p>
-          <p class="flex-item item2 proitem2">html</p>
-          <p class="flex-item item3 proitem3">bootstrap</p>
-        </div>
-      </div>
-      <button class="work-button probutton">See Project</button>
-      <div id="project6">
-        <h2 class="work-subtitle protitle pro2title">Tribute Page</h2>
-        <p class="work-details prodetails">Tribute to Dr. Abdul Salam a Nobel Scientist.</p>
-        <div class="flex pro2flex">
-          <p class="flex-item item1 proitem1">css</p>
-          <p class="flex-item item2 proitem2">html</p>
-          <p class="flex-item item3 proitem3">bootstrap</p>
-        </div>
-      </div>
-      <button class="work-button probutton">See Project</button>
-    </section>
-    <section id="aboutme">
-      <h2 id="me">About me</h2>
-      <p>
-        I can help you to build a product, feature or website Look through
-        some of my work and experience! If you like what you see and have a
-        project you need coded, don't hesitate to contact me.
-      </p>
-      <button class="work-button resumebtn">Get My Resume</button>
-    </section>
-    <section id="languages">
-      <div class="thumbnail">
-        <div class="rectangle">
-        </div>
-        <h2 class="headings">Languages</h2>
-      </div>
-      <ul>
-        <ul class="marginlistitems">
-          <li class="listitems">Javascript</li>
-          <li class="listitems">Ruby</li>
-          <li class="listitems">Html</li>
-          <li class="listitems">Css</li>
-        </ul>
-        <div class="thumbnail">
-          <div class="rectangle square">
-          </div>
-          <h2 class="headings">Frameworks</h2>
-        </div>
-        <ul class="marginlistitems">
-          <li class="listitems">Bootstrap</li>
-          <li class="listitems">Ruby on Rails</li>
-          <li class="listitems">RSPec</li>
-          <li class="listitems">CapyBara</li>
-          <li class="listitems">Selenium</li>
-        </ul>
-        <div class="thumbnail">
-          <div class="rectangle circle">
-          </div>
-          <h2 class="headings ">Skills</h2>
-        </div>
-        <ul class="marginlistitems">
-          <li class="listitems ">Codekit</li>
-          <li class="listitems">Github</li>
-          <li class="listitems">Codepen</li>
-          <li class="listitems">Gitlab</li>
-          <li class="listitems">Terminal</li>
-        </ul>
-      </ul>
-    </section>
-
-    <form action="https://formspree.io/f/xoqzdnpa"
-    method="POST">
-      <section id="getintouch" class="border">
-        <h2 class="intouch">I'm always interested in hearing about new projects, so if you'd like to chat please get in
-          touch</h2>
-        <input class="input border" type="text" placeholder="Full name" maxlength="30" required>
-        <input class="input border" type="email" placeholder="Email address" required>
-        <textarea class="input" name="textarea" id="textarea" cols="30" rows="5" placeholder="Enter text here"
-          maxlength="500" required></textarea>
-          <div class="centerbtn"><button type="submit" class="getintouchbtn work-button">Get in touch</button>
-        </div>
+        <button class="work-button resumebtn">Get My Resume</button>
       </section>
-    </form>
-  
-  </main>
+      <section id="languages">
+        <div class="thumbnail">
+          <div class="rectangle"></div>
+          <h2 class="headings">Languages</h2>
+        </div>
+        <ul>
+          <ul class="marginlistitems">
+            <li class="listitems">Javascript</li>
+            <li class="listitems">Ruby</li>
+            <li class="listitems">Html</li>
+            <li class="listitems">Css</li>
+          </ul>
+          <div class="thumbnail">
+            <div class="rectangle square"></div>
+            <h2 class="headings">Frameworks</h2>
+          </div>
+          <ul class="marginlistitems">
+            <li class="listitems">Bootstrap</li>
+            <li class="listitems">Ruby on Rails</li>
+            <li class="listitems">RSPec</li>
+            <li class="listitems">CapyBara</li>
+            <li class="listitems">Selenium</li>
+          </ul>
+          <div class="thumbnail">
+            <div class="rectangle circle"></div>
+            <h2 class="headings">Skills</h2>
+          </div>
+          <ul class="marginlistitems">
+            <li class="listitems">Codekit</li>
+            <li class="listitems">Github</li>
+            <li class="listitems">Codepen</li>
+            <li class="listitems">Gitlab</li>
+            <li class="listitems">Terminal</li>
+          </ul>
+        </ul>
+      </section>
 
-  <footer>
-    <div class="sociallinks">
-      <ul class="footercenter">
-        <li>
-          <a href="https://github.com/fpsapc" target="_blank" rel="noopener"> <img src="/img/github.png" class="social" alt="">
+      <form action="https://formspree.io/f/xoqzdnpa" method="POST">
+        <section id="getintouch" class="border">
+          <h2 class="intouch">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch
+          </h2>
+          <input
+            class="input border"
+            type="text"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
+          <input
+            class="input border"
+            type="email"
+            placeholder="Email address"
+            required
+          />
+          <textarea
+            class="input"
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="5"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+          ></textarea>
+          <div class="centerbtn">
+            <button type="submit" class="getintouchbtn work-button">
+              Get in touch
+            </button>
+          </div>
+        </section>
+      </form>
+    </main>
 
-          </a>
-        </li>
-        <li>
-          <a href="https://linkedin.com/in/salman-ahmad1987" target="_blank" rel="noopener"> 
-          <img src="/img/linkedin.png" class="social" alt="">  
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/company/vivimedia/about/" target="_blank" rel="noopener"> 
-            <img src="/img/angellist.png" class="social" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/salman-ahmadkhan1987" target="_blank" rel="noopener"> 
-            <img src="/img/twitter.png" class="social" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="mailto:fpsapc@gmail.com" target="_blank" rel="noopener"> 
-            <img src="/img/gmail.png" class="social" alt="">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-</body>
-
+    <footer>
+      <div class="sociallinks">
+        <ul class="footercenter">
+          <li>
+            <a href="https://github.com/fpsapc" target="_blank" rel="noopener">
+              <img src="/img/github.png" class="social" alt="" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/salman-ahmad1987"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="/img/linkedin.png" class="social" alt="" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/vivimedia/about/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="/img/angellist.png" class="social" alt="" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/salman-ahmadkhan1987"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="/img/twitter.png" class="social" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:fpsapc@gmail.com" target="_blank" rel="noopener">
+              <img src="/img/gmail.png" class="social" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -9,6 +9,7 @@ html {
   position: relative;
 }
 
+/* Header section */
 header {
   display: flex;
   justify-content: space-between;
@@ -29,10 +30,27 @@ header {
   color: white;
 }
 
+.logo:hover {
+  transform: scale(1.2) rotate(360deg);
+  color: #f55800;
+  transition: 0.2s;
+}
+
+.disapear {
+  display: none;
+}
+
+.nav-links a:hover {
+  transform: scale(1.2);
+  color: #f55800;
+  transition: 0.2s;
+}
+
 i {
   cursor: pointer;
 }
 
+/* introduction section */
 .intropage {
   background-color: #1c1a19;
   display: flex;
@@ -42,6 +60,9 @@ i {
   padding: 120px 24px;
   gap: 12px;
   position: relative;
+  background-image: url(/img/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
 .intro h1 {
@@ -84,13 +105,6 @@ i {
   height: 123px;
 }
 
-.backgroundimg {
-  position: absolute;
-  right: 0;
-  bottom: -1em;
-  z-index: 0;
-}
-
 div ul {
   display: flex;
 }
@@ -127,6 +141,13 @@ div ul li {
   margin-top: 60px;
   width: 327px;
   height: 237px;
+  background-image: url(/img/Img\ Placeholder1.svg);
+  background-size: contain;
+}
+
+.work-card {
+  height: 400px;
+  margin-bottom: 30px;
 }
 
 .work-subtitle {
@@ -166,7 +187,7 @@ div ul li {
 }
 
 .item1 {
-  width: 49px;
+  width: 61px;
 }
 
 .item2 {
@@ -215,12 +236,10 @@ div ul li {
   align-content: center;
 }
 
-#project1 {
+.project-card {
   width: 327px;
   height: 386px;
   position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/odinproject.jpg);
-  background-size: cover;
   display: grid;
   padding: 120px 24px;
   gap: 12px;
@@ -230,8 +249,7 @@ div ul li {
 .protitle {
   color: white;
   width: 295px;
-  height: 35px;
-  margin-top: 100px;
+  height: 81px;
 }
 
 .prodetails {
@@ -258,94 +276,47 @@ div ul li {
   background: rgba(255, 255, 255, 0.24);
 }
 
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 .probutton {
-  margin-top: -50px;
+  position: absolute;
+  bottom: 0;
   width: 327px;
   z-index: 1;
 }
 
-#project2 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/cafemenu.jpg);
-  background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
+#bg-pro1 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
+  background-size: contain;
 }
 
-.pro2title {
-  margin-top: 0;
+#bg-pro2 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
+  background-size: contain;
 }
 
-.pro2flex {
-  margin-top: 60px;
+#bg-pro3 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+  background-size: contain;
 }
 
-.projsecondpage {
-  display: grid;
-  background-color: #e5e5e5;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
+#bg-pro4 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
+  background-size: contain;
 }
 
-#project3 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/catphoto.jpg);
-  background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
+#bg-pro5 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
+  background-size: contain;
 }
 
-#project4 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/photogallery.jpg);
-  background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
-}
-
-.projthirdpage {
-  display: grid;
-  background-color: #e5e5e5;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
-}
-
-#project5 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/quiz.jpg);
-  background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
-}
-
-#project6 {
-  width: 327px;
-  height: 386px;
-  position: relative;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/tributepage.jpg);
-  background-size: cover;
-  display: grid;
-  padding: 120px 24px;
-  gap: 12px;
-  align-content: center;
+#bg-pro6 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+  background-size: contain;
 }
 
 #aboutme {
@@ -515,4 +486,286 @@ footer {
   cursor: pointer;
   z-index: 1;
   padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* header section in desktop */
+  header {
+    padding: 0 10rem;
+  }
+
+  .logo {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .nav-links i {
+    display: none;
+  }
+
+  .disapear {
+    display: contents;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links li {
+    list-style: none;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 10px 12px;
+  }
+
+  .menubtn {
+    cursor: pointer;
+  }
+
+  /* intro section in desktop */
+  .intropage {
+    background-image: url(/img/Illustration-header1.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+  }
+
+  .intro {
+    width: 35em;
+    padding: 2em 8em;
+  }
+
+  .intro h1 {
+    color: #ff6b00;
+    font-size: 72px;
+    line-height: 82px;
+    font-weight: 400;
+    width: 566px;
+    height: 160px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    letter-spacing: 0.37px;
+  }
+
+  .intro h2 {
+    width: 566px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff5e1;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    order: 1;
+  }
+
+  .intro p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #f4f6f7;
+    font-size: 20px;
+    line-height: 32px;
+    width: 566px;
+    height: 123px;
+    order: 2;
+  }
+
+  .socialintro ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialintro ul li {
+    list-style: none;
+  }
+
+  .social1 {
+    height: 35px;
+    width: 35px;
+  }
+
+  .socialintro {
+    position: absolute;
+    left: 2%;
+    top: 35%;
+  }
+
+  /* work section in desktop */
+  .work {
+    padding: 120px 152px 0 152px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #work-title {
+    color: #091e42;
+    width: auto;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 100px;
+  }
+
+  .line {
+    border: 1px solid #212121;
+    width: 794px;
+    order: 1;
+  }
+
+  #work-image {
+    margin-top: 0;
+    margin-right: 24px;
+    width: 643px;
+    height: 448px;
+    background-image: url(/img/Img\ Placeholder1.svg);
+  }
+
+  .work-card {
+    display: flex;
+    height: 448px;
+    margin: 1em;
+  }
+
+  .work-subtitle {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 448px;
+    height: 48px;
+  }
+
+  .work-details {
+    width: 448px;
+    height: 140px;
+    color: #091e42;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e5e5e5;
+    padding: 0 152px 120px 152px;
+    gap: 12px;
+    align-content: center;
+  }
+
+  .project-card {
+    width: 369px;
+    height: 435px;
+    position: relative;
+    display: grid;
+    padding: 120px 24px;
+    gap: 12px;
+    align-content: center;
+  }
+
+  #bg-pro1 {
+    background: url(/img/Img\ Placeholder1-3.svg);
+    background-size: contain;
+  }
+
+  #bg-pro2 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
+    background-size: contain;
+  }
+
+  #bg-pro3 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+    background-size: contain;
+  }
+
+  #bg-pro4 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-3.svg);
+    background-size: contain;
+  }
+
+  #bg-pro5 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-2.svg);
+    background-size: contain;
+  }
+
+  #bg-pro6 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/img/Img\ Placeholder1-1.svg);
+    background-size: contain;
+  }
+
+  .protitle {
+    color: white;
+    width: 337px;
+    height: 81px;
+    font-weight: 400;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .prodetails {
+    width: 337px;
+    height: 72px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .proitem1 {
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .proitem2 {
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .proitem3 {
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .probutton {
+    position: absolute;
+    bottom: 0;
+    width: 369px;
+    z-index: 1;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+  }
 }
