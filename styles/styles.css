@@ -60,7 +60,7 @@ i {
   padding: 120px 24px;
   gap: 12px;
   position: relative;
-  background-image: url("/img/Illustration.png");
+  background-image: url("../img/Illustration.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
