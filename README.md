@@ -35,7 +35,12 @@
 Html CSS
 
 **[Salman's Portfolio]** is a webpage where you can find my work and experience so far.
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://fpsapc.github.io/MicroverseStudentProject1/)
 - <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
