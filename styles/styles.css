@@ -119,7 +119,6 @@ div ul li {
   transition: all 500ms;
 }
 
-.social:hover,
 .social1:hover {
   scale: 1.4;
 }
@@ -291,7 +290,7 @@ div ul li {
 .proitem2:hover,
 .proitem3:hover {
   scale: 1.1;
-  background-color:rgba(55, 55, 55, 0.9);
+  background-color: rgba(55, 55, 55, 0.9);
 }
 
 .card-text {
@@ -520,6 +519,10 @@ footer {
   z-index: 1;
   padding: 10px;
   transition: all 500ms;
+}
+
+.social:hover {
+  scale: 1.4;
 }
 
 @media only screen and (min-width: 768px) {
