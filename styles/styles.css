@@ -42,7 +42,7 @@ header {
 
 .nav-links a:hover {
   transform: scale(1.2);
-  color: #ff8744;
+  color: #ff9455;
   transition: 0.2s;
 }
 
