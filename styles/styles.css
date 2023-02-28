@@ -116,6 +116,12 @@ div ul li {
 .social1 {
   cursor: pointer;
   z-index: 1;
+  transition: all 500ms;
+}
+
+.social:hover,
+.social1:hover {
+  scale: 1.4;
 }
 
 .work {
@@ -215,12 +221,14 @@ div ul li {
   color: #000001;
   border: none;
   margin-top: 1em;
+  transition: all 300ms;
 }
 
 .work-button:hover {
   cursor: pointer;
   background-color: #fff5e1;
   color: #f55800;
+  scale: 1.05;
 }
 
 .work-button:focus {
@@ -262,18 +270,28 @@ div ul li {
   border: none;
   color: white;
   background: rgba(255, 255, 255, 0.24);
+  transition: scale 500ms, background-color 300ms;
 }
 
 .proitem2 {
   border: none;
   color: white;
   background: rgba(255, 255, 255, 0.24);
+  transition: scale 500ms, background-color 300ms;
 }
 
 .proitem3 {
   border: none;
   color: white;
   background: rgba(255, 255, 255, 0.24);
+  transition: scale 500ms, background-color 300ms;
+}
+
+.proitem1:hover,
+.proitem2:hover,
+.proitem3:hover {
+  scale: 1.1;
+  background-color:rgba(55, 55, 55, 0.9);
 }
 
 .card-text {
@@ -501,6 +519,7 @@ footer {
   cursor: pointer;
   z-index: 1;
   padding: 10px;
+  transition: all 500ms;
 }
 
 @media only screen and (min-width: 768px) {
