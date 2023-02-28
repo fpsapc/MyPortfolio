@@ -205,14 +205,14 @@ div ul li {
 .work-button {
   width: 124px;
   height: 48px;
-  background-color: #f55800;
+  background-color: #fd5d01;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
   letter-spacing: 3%;
   font-style: normal;
-  color: white;
+  color: #000001;
   border: none;
   margin-top: 1em;
 }
@@ -477,7 +477,7 @@ div ul li {
 }
 
 .border {
-  border-bottom: 1px solid #dbd8d7;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .centerbtn {
@@ -934,7 +934,7 @@ footer {
   .input {
     padding: 12px;
     background-color: white;
-    color: #979493;
+    color: #222221;
     border: none;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
