@@ -50,6 +50,10 @@ i {
   cursor: pointer;
 }
 
+nav ul li {
+  list-style: none;
+}
+
 /* introduction section */
 .intropage {
   background-color: #1c1a19;
