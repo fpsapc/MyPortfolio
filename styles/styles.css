@@ -226,13 +226,13 @@ div ul li {
 .work-button:hover {
   cursor: pointer;
   background-color: #fff5e1;
-  color: #f55800;
+  color: rgb(161 58 0);
   scale: 1.05;
 }
 
 .work-button:focus {
   background-color: #e05304;
-  color: #f4f1f0;
+  color: #120a08;
 }
 
 .projects {
@@ -658,6 +658,10 @@ footer {
     align-items: center;
     border: none;
     margin-bottom: 100px;
+  }
+
+  .work-heading {
+    font-size: 1em;
   }
 
   .line {
