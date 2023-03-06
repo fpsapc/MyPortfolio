@@ -72,22 +72,25 @@ header {
   z-index: 100;
 }
 
-.nav-item {
-  margin: 16px 0;
-}
-
 .nav-menu.active {
   left: 0;
+  background-color: #3c3a39;
+  height: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: start;
 }
 
-/* .disapear {
-  display: none;
-} */
+li a {
+  color: white !important;
+}
 
 .nav-menu a:hover {
   transform: scale(1.2);
   color: #ff9455;
-  transition: 0.2s;
 }
 
 div ul li {
@@ -96,11 +99,10 @@ div ul li {
 
 nav ul li {
   list-style: none;
-  padding: 16px 0;
 }
 
 nav ul li:hover {
-  border: 1px solid white;
+  border: 1px solid #ff6b00;
 }
 
 /* introduction section */
@@ -129,26 +131,16 @@ nav ul li:hover {
   font-style: normal;
   letter-spacing: 0.37px;
 }
-.nav-menu {
-  height: 100%;
-}
-.nav-menu.active {
-  background-color: #3C3A39;
-  height: 100%;
-  display: flex;
-  padding: 1rem 1rem;
-  font-size: 2rem;
-  font-weight: 700;
-  text-decoration: none;
-  align-items: start;
-}
-li a {
-  color: white !important;
+
+.nav-menu.active li > a {
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  margin: 16px 0;
 }
 
-.nav-menu.active li>a {
-  color: white;
-  font-family: "Inter", sans-serif;
+.nav-item {
+  margin: 16px 0;
+  padding: 0 16px;
 }
 
 .underline {
