@@ -89,6 +89,10 @@ header {
   transition: 0.2s;
 }
 
+div ul li {
+  list-style: none;
+}
+
 nav ul li {
   list-style: none;
   padding: 16px 0;
@@ -155,10 +159,6 @@ nav ul li:hover {
 
 div ul {
   display: flex;
-}
-
-div ul li {
-  list-style: none;
 }
 
 .social1 {
