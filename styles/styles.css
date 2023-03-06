@@ -55,7 +55,7 @@ nav ul li {
 }
 
 /* introduction section */
-.intro-page {
+.intropage {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -573,12 +573,12 @@ footer {
     padding: 10px 12px;
   }
 
-  .menu-btn {
+  .menubtn {
     cursor: pointer;
   }
 
   /* intro section in desktop */
-  .intro-page {
+  .intropage {
     background-image: url("../img/Illustration-header1.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -629,13 +629,13 @@ footer {
     order: 2;
   }
 
-  .social-intro ul {
+  .socialintro ul {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .social-intro ul li {
+  .socialintro ul li {
     list-style: none;
   }
 
@@ -644,7 +644,7 @@ footer {
     width: 35px;
   }
 
-  .social-intro {
+  .socialintro {
     position: absolute;
     left: 2%;
     top: 35%;
@@ -757,7 +757,7 @@ footer {
     background-size: contain;
   }
 
-  .pro-title {
+  .protitle {
     color: white;
     width: 337px;
     height: 81px;
@@ -767,7 +767,7 @@ footer {
     line-height: 44px;
   }
 
-  .pro-details {
+  .prodetails {
     width: 337px;
     height: 72px;
     color: white;
@@ -777,25 +777,25 @@ footer {
     font-weight: 400;
   }
 
-  .pro-item1 {
+  .proitem1 {
     border: none;
     color: white;
     background: rgba(255, 255, 255, 0.24);
   }
 
-  .pro-item2 {
+  .proitem2 {
     border: none;
     color: white;
     background: rgba(255, 255, 255, 0.24);
   }
 
-  .pro-item3 {
+  .proitem3 {
     border: none;
     color: white;
     background: rgba(255, 255, 255, 0.24);
   }
 
-  .pro-button {
+  .probutton {
     position: absolute;
     bottom: 0;
     width: 369px;
@@ -906,7 +906,7 @@ footer {
     justify-items: center;
   }
 
-  .thumbnail-list {
+  .marginlistitems {
     display: flex;
     flex-direction: column;
     margin: 50px 0;
@@ -926,7 +926,7 @@ footer {
     text-align: center;
   }
 
-  .thumbnail-list-items {
+  .listitems {
     list-style: none;
     text-align: center;
     font-family: "Inter", sans-serif;
