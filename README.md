@@ -41,14 +41,8 @@ Html CSS
 
 
 - [Live Demo Link](https://fpsapc.github.io/MicroverseStudentProject1/)
+- <!-- GETTING STARTED -->
 
-<!-- LOOM WALKTHROUGH -->
-##  Loom Walkthrough <a name="loom-walkthrough"></a>
-
-
-- [Loom Walkthrough Link](https://www.loom.com/share/479c7b9b09e942a6a50acb21f5027f2e)
-
-<!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
