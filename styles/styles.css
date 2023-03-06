@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
@@ -127,6 +128,35 @@ nav ul li:hover {
   font-family: "Crete Round", serif;
   font-style: normal;
   letter-spacing: 0.37px;
+}
+.nav-menu {
+  height: 100%;
+}
+.nav-menu.active {
+  background-color: #3C3A39;
+  height: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: start;
+}
+li a {
+  color: white !important;
+}
+
+.nav-menu.active li>a {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.underline {
+  width: 90%;
+}
+
+.nav-menu.active .touck {
+  display: none;
 }
 
 .intro h2 {
