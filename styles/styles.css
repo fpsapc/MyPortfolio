@@ -332,7 +332,9 @@ nav ul li:hover {
   display: grid;
   padding: 120px 24px;
   gap: 12px;
+  overflow: hidden;
   align-content: center;
+  background-size: contain;
 }
 
 .protitle {
@@ -790,36 +792,54 @@ footer {
     gap: 12px;
     align-content: center;
   }
-
-  #bg-pro1 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
-    background-size: contain;
+  
+  .project-card:hover {
+    cursor: pointer;
   }
 
-  #bg-pro2 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
-    background-size: contain;
+  .project-card:hover > .card-text {
+    display: none;  
+  }
+  
+  .work-button {
+    display: none;
   }
 
-  #bg-pro3 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
-    background-size: contain;
+  .project-card:hover > .work-button {
+    display: block;
   }
+  
 
+  #bg-pro1,
   #bg-pro4 {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
-    background-size: contain;
   }
 
+  #bg-pro1:hover,
+  #bg-pro4:hover {
+    background:url(../img/Img\ Placeholder1-3.svg);
+  }
+
+  #bg-pro2,
   #bg-pro5 {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
-    background-size: contain;
   }
 
+  #bg-pro2:hover,
+  #bg-pro5:hover {
+    background:url(../img/Img\ Placeholder1-2.svg);
+  }
+
+  #bg-pro3,
   #bg-pro6 {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
-    background-size: contain;
   }
+
+  #bg-pro3:hover,
+  #bg-pro6:hover {
+    background:url(../img/Img\ Placeholder1-1.svg);
+  }
+
 
   .protitle {
     color: white;

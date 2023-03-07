@@ -94,10 +94,10 @@ projects.map((card) => {
               <p class="flex-item item1 proitem1">${card.technologies[2]}</p>
             </div>
           </div>
-          <button class="work-button probutton hide">
+          <button class="work-button probutton">
           ${card.seeProject}
           </button>
-        </div>
+  </div>
   `;
   return ('');
 });
