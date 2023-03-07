@@ -418,6 +418,54 @@ nav ul li:hover {
   background-size: contain;
 }
 
+.popup {
+  padding: 50px 24px;
+}
+
+#popup-title {
+  margin-bottom: 40px;
+}
+
+.popup-heading {
+  font-family: "Roboto", sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+#popup-image {
+  background-image: url(/img/Snapshoot\ Portfolio1.svg);
+  background-size: contain;
+  width: 311px;
+  height: 220px;
+  background-repeat: no-repeat;
+}
+
+.popup-details {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  height: 383px;
+  width: 311px;
+}
+
+#see-live,
+#see-source {
+  display: block;
+  margin-right: 20px;
+  width: 150px;
+}
+
 #aboutme {
   background-color: #1c1a19;
   align-content: center;
@@ -792,15 +840,22 @@ footer {
     gap: 12px;
     align-content: center;
   }
-  
+
   .project-card:hover {
     cursor: pointer;
   }
 
-  .project-card:hover > .card-text {
-    display: none;  
+  .card-text {
+    gap: 1em;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
   }
-  
+
+  .project-card:hover > .card-text {
+    display: none;
+  }
+
   .work-button {
     display: none;
   }
@@ -808,7 +863,6 @@ footer {
   .project-card:hover > .work-button {
     display: block;
   }
-  
 
   #bg-pro1,
   #bg-pro4 {
@@ -817,7 +871,7 @@ footer {
 
   #bg-pro1:hover,
   #bg-pro4:hover {
-    background:url(../img/Img\ Placeholder1-3.svg);
+    background: url(../img/Img\ Placeholder1-3.svg);
   }
 
   #bg-pro2,
@@ -827,7 +881,7 @@ footer {
 
   #bg-pro2:hover,
   #bg-pro5:hover {
-    background:url(../img/Img\ Placeholder1-2.svg);
+    background: url(../img/Img\ Placeholder1-2.svg);
   }
 
   #bg-pro3,
@@ -837,9 +891,8 @@ footer {
 
   #bg-pro3:hover,
   #bg-pro6:hover {
-    background:url(../img/Img\ Placeholder1-1.svg);
+    background: url(../img/Img\ Placeholder1-1.svg);
   }
-
 
   .protitle {
     color: white;
@@ -890,11 +943,56 @@ footer {
     display: none;
   }
 
-  .card-text {
-    gap: 1em;
+  .popup {
+    padding: 100px 150px;
+  }
+
+  #popup-title {
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .close-btn {
     position: absolute;
-    left: 20px;
-    bottom: 10px;
+    top: 10px;
+    right: 100px;
+  }
+
+  .popup-heading {
+    font-family: "Roboto", sans-serif;
+    color: #172b4d;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .popup-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  #popup-image {
+    background-image: url(/img/Snapshoot\ Portfolio1.svg);
+    background-size: contain;
+    width: 659px;
+    height: 448px;
+    background-repeat: no-repeat;
+  }
+
+  .popup-details {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    height: 383px;
+  }
+
+  #see-live,
+  #see-source {
+    display: block;
+    margin-right: 10px;
   }
 
   #aboutme {
