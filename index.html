@@ -37,10 +37,10 @@
   </head>
 
   <body>
-    <header>
+    <header class="flex">
       <a class="logo" href="#home">My Logo</a>
       <nav class="navbar">
-          <ul class="nav-menu">
+          <ul class="nav-menu flex">
             <li class="disapear nav-item">
               <a href="#projects" class="nav-link">Portfolio</a>
             </li>
@@ -67,13 +67,13 @@
     </header>
 
     <main>
-      <section class="intropage">
+      <section class="intropage flex flex-column">
         <div class="intro">
           <h1>
             Hey There. <br />
             I'm Salman
           </h1>
-          <h2>I'm a Software Developer</h2>
+          <h2 class="flex">I'm a Software Developer</h2>
           <p>
             I can help you to build a product, feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -83,7 +83,7 @@
         <!-- 
         use class sociallinks for social elements -->
         <div class="socialintro">
-          <ul>
+          <ul class="flex">
             <li>
               <a
                 href="https://github.com/fpsapc"
@@ -145,7 +145,7 @@
               since the 1500s, when an unknown printer took a standard dummy
               text.
             </p>
-            <div class="flex">
+            <div class="flex flex-start">
               <p class="flex-item item1">css</p>
               <p class="flex-item item2">html</p>
               <p class="flex-item item3">bootstrap</p>
@@ -159,7 +159,7 @@
       <section class="projects">
         <!-- Project Cards  -->
         <div id="bg-pro1" class="project-card">
-          <div class="card-text">
+          <div class="card-text flex flex-column">
             <h2 class="work-subtitle protitle hide">
             Professional Art Printing Data
             </h2>
@@ -177,7 +177,7 @@
           </button>
         </div>
         <div id="bg-pro2" class="project-card">
-          <div class="card-text">
+          <div class="card-text flex flex-column">
             <h2 class="work-subtitle protitle">
               Data Dashboard Healthcare
             </h2>
@@ -196,7 +196,7 @@
           </button>
         </div>
         <div id="bg-pro3" class="project-card">
-          <div class="card-text">
+          <div class="card-text flex flex-column">
             <h2 class="work-subtitle protitle">
               Website Protfolio 
             </h2>
@@ -215,7 +215,7 @@
           </button>
         </div>
         <div id="bg-pro4" class="project-card">
-          <div class="card-text">
+          <div class="card-text flex flex-column">
             <h2 class="work-subtitle protitle">
             Professional Art Printing Data
             </h2>
@@ -234,7 +234,7 @@
           </button>
         </div>
         <div id="bg-pro5" class="project-card">
-          <div class="card-text">
+          <div class="card-text flex flex-column">
             <h2 class="work-subtitle protitle">
               Data Dashboard Healthcare
             </h2>
@@ -253,7 +253,7 @@
           </button>
         </div>
         <div id="bg-pro6" class="project-card">
-          <div class="card-text">
+          <div class="card-text flex flex-column">
             <h2 class="work-subtitle protitle">
               Website Protfolio 
             </h2>
@@ -272,7 +272,7 @@
           </button>
         </div>
       </section>
-      <section id="aboutme">
+      <section id="aboutme" class=" flex flex-column">
           <h2 id="me">About me</h2>
           <p>
           I can help you to build a product, feature or website Look through
@@ -286,11 +286,11 @@
 
           </div>
       </section>
-      <section id="languages">
+      <section id="languages" class="flex flex-column">
         <div class="thumbnail">
           <div class="rectangle"></div>
            <h2 class="headings">Languages</h2>
-            <ul class="marginlistitems">
+            <ul class="marginlistitems flex flex-column">
               <li class="listitems">Javascript</li>
               <li class="listitems">Ruby</li>
               <li class="listitems">Html</li>
@@ -300,7 +300,7 @@
           <div class="thumbnail">
             <div class="square"></div>
              <h2 class="headings">Frameworks</h2>
-              <ul class="marginlistitems">
+              <ul class="marginlistitems flex flex-column">
                <li class="listitems">Bootstrap</li>
                <li class="listitems">Ruby on Rails
                </li>
@@ -312,7 +312,7 @@
           <div class="thumbnail">
             <div class="circle"></div>
             <h2 class="headings">Skills</h2>
-            <ul class="marginlistitems">
+            <ul class="marginlistitems flex flex-column">
               <li class="listitems">Codekit</li>
               <li class="listitems">Github</li>
               <li class="listitems">Codepen</li>
@@ -344,7 +344,7 @@
             required
             />
             <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Hello Salman. I would like to get in touch with you..." required></textarea>
-            <div class="centerbtn">
+            <div class="centerbtn flex">
             <button type="submit" class="getintouchbtn work-button">
               Get in touch
             </button>
@@ -356,7 +356,7 @@
 
     <footer>
       <div class="sociallinks">
-        <ul class="footercenter">
+        <ul class="footercenter flex">
           <li>
             <a href="https://github.com/fpsapc" target="_blank" rel="noopener">
               <img src="img/github.png" class="social" alt="githublink" />

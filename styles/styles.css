@@ -10,9 +10,16 @@ html {
   position: relative;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 /* Header section */
 header {
-  display: flex;
   justify-content: space-between;
   background-color: #3e3c3c;
   align-items: center;
@@ -112,8 +119,6 @@ nav ul li:hover {
 /* introduction section */
 .intropage {
   background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   margin: auto;
   padding: 120px 24px;
@@ -166,7 +171,6 @@ nav ul li:hover {
   line-height: 32px;
   color: #fff5e1;
   font-style: normal;
-  display: flex;
   align-items: center;
   letter-spacing: 1.17px;
   padding: 25px 0;
@@ -181,10 +185,6 @@ nav ul li:hover {
   line-height: 24px;
   width: 327px;
   height: 123px;
-}
-
-div ul {
-  display: flex;
 }
 
 .social1 {
@@ -252,8 +252,7 @@ div ul {
   line-height: 24px;
 }
 
-.flex {
-  display: flex;
+.flex-start {
   justify-content: flex-start;
 }
 
@@ -373,8 +372,6 @@ div ul {
 }
 
 .card-text {
-  display: flex;
-  flex-direction: column;
   gap: 1em;
 }
 
@@ -416,8 +413,6 @@ div ul {
 }
 
 #aboutme {
-  display: flex;
-  flex-direction: column;
   background-color: #1c1a19;
   align-content: center;
   padding: 120px 24px;
@@ -492,14 +487,12 @@ div ul {
 }
 
 #languages {
-  display: flex;
   background-color: #1c1a19;
   padding: 120px 24px;
   align-items: center;
   align-content: center;
   justify-content: center;
   justify-items: center;
-  flex-direction: column;
 }
 
 .headings {
@@ -528,8 +521,6 @@ div ul {
 }
 
 .marginlistitems {
-  display: flex;
-  flex-direction: column;
   margin: 20px 0;
 }
 
@@ -578,7 +569,6 @@ div ul {
 
 .centerbtn {
   margin-top: 10px;
-  display: flex;
   width: 327px;
   align-items: center;
   justify-content: center;
@@ -626,7 +616,6 @@ footer {
   }
 
   .nav-menu {
-    display: flex;
     flex-direction: row;
     right: 0;
     top: 0;
@@ -684,7 +673,6 @@ footer {
     line-height: 44px;
     color: #fff5e1;
     font-style: normal;
-    display: flex;
     align-items: center;
     padding: 25px 0;
     order: 1;
@@ -703,7 +691,6 @@ footer {
   }
 
   .socialintro ul {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -880,8 +867,6 @@ footer {
   }
 
   .card-text {
-    display: flex;
-    flex-direction: column;
     gap: 1em;
     position: absolute;
     left: 20px;
@@ -889,8 +874,6 @@ footer {
   }
 
   #aboutme {
-    display: flex;
-    flex-direction: column;
     position: relative;
     background-color: #1c1a19;
     align-content: center;
@@ -980,8 +963,6 @@ footer {
   }
 
   .marginlistitems {
-    display: flex;
-    flex-direction: column;
     margin: 50px 0;
   }
 
@@ -1063,7 +1044,6 @@ footer {
 
   .centerbtn {
     margin-top: 10px;
-    display: flex;
     width: 327px;
     justify-content: flex-start;
   }
