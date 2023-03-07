@@ -59,6 +59,10 @@ header {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .nav-menu {
   position: fixed;
   left: -100%;
@@ -644,10 +648,6 @@ footer {
     line-height: 20px;
     font-weight: 600;
     padding: 10px 12px;
-  }
-
-  .menubtn {
-    cursor: pointer;
   }
 
   /* intro section in desktop */

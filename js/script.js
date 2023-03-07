@@ -4,6 +4,7 @@ const navMenu = document.querySelector('.nav-menu');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
+  document.body.classList.toggle('no-scroll');
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
