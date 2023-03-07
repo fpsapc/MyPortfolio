@@ -70,6 +70,10 @@ header {
   overflow: hidden;
 }
 
+.navbar {
+  width: 6em;
+}
+
 .nav-menu {
   position: fixed;
   left: -100%;
