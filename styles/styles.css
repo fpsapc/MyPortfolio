@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
@@ -9,9 +10,16 @@ html {
   position: relative;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 /* Header section */
 header {
-  display: flex;
   justify-content: space-between;
   background-color: #3e3c3c;
   align-items: center;
@@ -36,29 +44,85 @@ header {
   transition: 0.2s;
 }
 
-.disapear {
-  display: none;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
-.nav-links a:hover {
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.navbar {
+  width: 6em;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: rgba(38, 38, 38, 0.9);
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+.nav-menu.active {
+  left: 0;
+  background-color: #3c3a39;
+  height: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: start;
+}
+
+li a {
+  color: white !important;
+}
+
+.nav-menu a:hover {
   transform: scale(1.2);
   color: #ff9455;
-  transition: 0.2s;
 }
 
-i {
-  cursor: pointer;
+div ul li {
+  list-style: none;
 }
 
 nav ul li {
   list-style: none;
 }
 
+nav ul li:hover {
+  border: 1px solid #ff6b00;
+}
+
 /* introduction section */
 .intropage {
   background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   margin: auto;
   padding: 120px 24px;
@@ -81,6 +145,25 @@ nav ul li {
   letter-spacing: 0.37px;
 }
 
+.nav-menu.active li > a {
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  margin: 16px 0;
+}
+
+.nav-item {
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.underline {
+  width: 90%;
+}
+
+.nav-menu.active .touck {
+  display: none;
+}
+
 .intro h2 {
   width: 327px;
   height: 27px;
@@ -92,7 +175,6 @@ nav ul li {
   line-height: 32px;
   color: #fff5e1;
   font-style: normal;
-  display: flex;
   align-items: center;
   letter-spacing: 1.17px;
   padding: 25px 0;
@@ -107,14 +189,6 @@ nav ul li {
   line-height: 24px;
   width: 327px;
   height: 123px;
-}
-
-div ul {
-  display: flex;
-}
-
-div ul li {
-  list-style: none;
 }
 
 .social1 {
@@ -182,8 +256,7 @@ div ul li {
   line-height: 24px;
 }
 
-.flex {
-  display: flex;
+.flex-start {
   justify-content: flex-start;
 }
 
@@ -303,8 +376,6 @@ div ul li {
 }
 
 .card-text {
-  display: flex;
-  flex-direction: column;
   gap: 1em;
 }
 
@@ -346,8 +417,6 @@ div ul li {
 }
 
 #aboutme {
-  display: flex;
-  flex-direction: column;
   background-color: #1c1a19;
   align-content: center;
   padding: 120px 24px;
@@ -422,14 +491,12 @@ div ul li {
 }
 
 #languages {
-  display: flex;
   background-color: #1c1a19;
   padding: 120px 24px;
   align-items: center;
   align-content: center;
   justify-content: center;
   justify-items: center;
-  flex-direction: column;
 }
 
 .headings {
@@ -458,8 +525,6 @@ div ul li {
 }
 
 .marginlistitems {
-  display: flex;
-  flex-direction: column;
   margin: 20px 0;
 }
 
@@ -508,7 +573,6 @@ div ul li {
 
 .centerbtn {
   margin-top: 10px;
-  display: flex;
   width: 327px;
   align-items: center;
   justify-content: center;
@@ -534,6 +598,7 @@ footer {
   scale: 1.4;
 }
 
+/* Desktop version */
 @media only screen and (min-width: 768px) {
   /* header section in desktop */
   header {
@@ -545,25 +610,30 @@ footer {
     line-height: 20px;
   }
 
-  .nav-links i {
+  .hamburger {
     display: none;
+    cursor: pointer;
   }
 
   .disapear {
     display: contents;
   }
 
-  .nav-links {
-    display: flex;
+  .nav-menu {
+    flex-direction: row;
+    right: 0;
+    top: 0;
     align-items: center;
     justify-content: center;
+    position: relative;
+    background-color: #3e3c3c;
   }
 
-  .nav-links li {
+  .nav-menu li {
     list-style: none;
   }
 
-  .nav-links li a {
+  .nav-menu li a {
     text-decoration: none;
     color: white;
     font-family: "Inter", sans-serif;
@@ -571,10 +641,6 @@ footer {
     line-height: 20px;
     font-weight: 600;
     padding: 10px 12px;
-  }
-
-  .menubtn {
-    cursor: pointer;
   }
 
   /* intro section in desktop */
@@ -611,7 +677,6 @@ footer {
     line-height: 44px;
     color: #fff5e1;
     font-style: normal;
-    display: flex;
     align-items: center;
     padding: 25px 0;
     order: 1;
@@ -630,7 +695,6 @@ footer {
   }
 
   .socialintro ul {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -807,8 +871,6 @@ footer {
   }
 
   .card-text {
-    display: flex;
-    flex-direction: column;
     gap: 1em;
     position: absolute;
     left: 20px;
@@ -816,8 +878,6 @@ footer {
   }
 
   #aboutme {
-    display: flex;
-    flex-direction: column;
     position: relative;
     background-color: #1c1a19;
     align-content: center;
@@ -907,8 +967,6 @@ footer {
   }
 
   .marginlistitems {
-    display: flex;
-    flex-direction: column;
     margin: 50px 0;
   }
 
@@ -990,7 +1048,6 @@ footer {
 
   .centerbtn {
     margin-top: 10px;
-    display: flex;
     width: 327px;
     justify-content: flex-start;
   }
