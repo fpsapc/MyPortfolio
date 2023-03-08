@@ -103,6 +103,11 @@ li a {
   color: white !important;
 }
 
+.work-button > a {
+  text-decoration: none;
+  color: #000001;
+}
+
 .nav-menu a:hover {
   transform: scale(1.2);
   color: #ff9455;
@@ -207,6 +212,7 @@ nav ul li:hover {
   padding: 120px 24px;
   gap: 12px;
   align-content: center;
+  justify-content: center;
 }
 
 #work-title {
@@ -267,25 +273,8 @@ nav ul li:hover {
   line-height: 20px;
   border: 1px solid #8993a4;
   padding: 10px 12px;
-  height: 40px;
   align-items: center;
   margin-right: 12px;
-}
-
-.item1 {
-  width: 61px;
-}
-
-.item2 {
-  width: 56px;
-}
-
-.item3 {
-  width: 95px;
-}
-
-.item4 {
-  width: 61px;
 }
 
 .work-button {
@@ -317,12 +306,42 @@ nav ul li:hover {
   color: #120a08;
 }
 
+.headline-btn {
+  width: 124px;
+  height: 48px;
+  background-color: #fd5d01;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  font-style: normal;
+  color: #000001;
+  margin-top: 1em;
+  transition: all 300ms;
+  border: 1px solid rgb(161 58 0);
+}
+
+.headline-btn:hover {
+  cursor: pointer;
+  background-color: #fff5e1;
+  color: rgb(24 12 6);
+  scale: 1.05;
+  border: 1px solid rgb(161 58 0);
+}
+
+.headline-btn:focus {
+  background-color: #e05304;
+  color: #120a08;
+}
+
 .projects {
   display: grid;
   background-color: #e5e5e5;
   padding: 120px 24px;
   gap: 12px;
   align-content: center;
+  justify-content: center;
 }
 
 .project-card {
@@ -332,7 +351,9 @@ nav ul li:hover {
   display: grid;
   padding: 120px 24px;
   gap: 12px;
+  overflow: hidden;
   align-content: center;
+  background-size: contain;
 }
 
 .protitle {
@@ -416,6 +437,93 @@ nav ul li:hover {
   background-size: contain;
 }
 
+.popup {
+  width: 90%;
+  height: 90%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+#popup-title {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.popup-heading {
+  font-family: "Roboto", sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+#popup-image img,
+#popup-image {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  padding-bottom: 2em;
+}
+
+.popup-details {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  width: 311px;
+}
+
+.popup-textbtn {
+  width: 311px;
+}
+
+#see-live,
+#see-source {
+  display: block;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.seePopup {
+  display: none;
+  transition: all 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.act {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #aboutme {
   background-color: #1c1a19;
   align-content: center;
@@ -453,6 +561,30 @@ nav ul li:hover {
 .resumebtn {
   width: 161px;
   height: 48px;
+  background-color: #fd5d01;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  font-style: normal;
+  color: #000001;
+  margin-top: 1em;
+  transition: all 300ms;
+  border: 1px solid rgb(161 58 0);
+}
+
+.resumebtn:hover {
+  cursor: pointer;
+  background-color: #fff5e1;
+  color: rgb(24 12 6);
+  scale: 1.05;
+  border: 1px solid rgb(161 58 0);
+}
+
+.resumebtn:focus {
+  background-color: #e05304;
+  color: #120a08;
 }
 
 .thumbnail {
@@ -576,6 +708,35 @@ nav ul li:hover {
   width: 327px;
   align-items: center;
   justify-content: center;
+}
+
+.getintouchbtn {
+  width: 124px;
+  height: 48px;
+  background-color: #fd5d01;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  font-style: normal;
+  color: #000001;
+  margin-top: 1em;
+  transition: all 300ms;
+  border: 1px solid rgb(161 58 0);
+}
+
+.getintouchbtn:hover {
+  cursor: pointer;
+  background-color: #fff5e1;
+  color: rgb(24 12 6);
+  scale: 1.05;
+  border: 1px solid rgb(161 58 0);
+}
+
+.getintouchbtn:focus {
+  background-color: #e05304;
+  color: #120a08;
 }
 
 footer {
@@ -791,34 +952,61 @@ footer {
     align-content: center;
   }
 
-  #bg-pro1 {
-    background: url(../img/Img\ Placeholder1-3.svg);
-    background-size: contain;
+  .project-card:hover {
+    cursor: pointer;
   }
 
-  #bg-pro2 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
-    background-size: contain;
+  .card-text {
+    gap: 1em;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
   }
 
-  #bg-pro3 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
-    background-size: contain;
+  .project-card:hover > .card-text {
+    display: none;
   }
 
+  .probutton {
+    position: absolute;
+    bottom: 0;
+    width: 369px;
+    z-index: 1;
+    display: none;
+  }
+
+  .project-card:hover > .probutton {
+    display: block;
+  }
+
+  #bg-pro1,
   #bg-pro4 {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
-    background-size: contain;
   }
 
+  #bg-pro1:hover,
+  #bg-pro4:hover {
+    background: url(../img/Img\ Placeholder1-3.svg);
+  }
+
+  #bg-pro2,
   #bg-pro5 {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
-    background-size: contain;
   }
 
+  #bg-pro2:hover,
+  #bg-pro5:hover {
+    background: url(../img/Img\ Placeholder1-2.svg);
+  }
+
+  #bg-pro3,
   #bg-pro6 {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
-    background-size: contain;
+  }
+
+  #bg-pro3:hover,
+  #bg-pro6:hover {
+    background: url(../img/Img\ Placeholder1-1.svg);
   }
 
   .protitle {
@@ -859,22 +1047,69 @@ footer {
     background: rgba(255, 255, 255, 0.24);
   }
 
-  .probutton {
-    position: absolute;
-    bottom: 0;
-    width: 369px;
-    z-index: 1;
-  }
-
   .hide {
     display: none;
   }
 
-  .card-text {
-    gap: 1em;
+  .popup {
+    width: 80%;
+    height: 80%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    overflow: auto;
+    padding: 3rem;
+  }
+
+  #popup-title {
+    margin-bottom: 3em;
+    position: relative;
+  }
+
+  .close-btn {
     position: absolute;
-    left: 20px;
-    bottom: 10px;
+    top: 10px;
+    right: 0;
+  }
+
+  .close-btn:hover {
+    cursor: pointer;
+  }
+
+  .popup-heading {
+    font-family: "Roboto", sans-serif;
+    color: #172b4d;
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+
+  .popup-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  #popup-image img,
+  #popup-image {
+    width: 45em;
+    height: 28em;
+    object-fit: cover;
+  }
+
+  .popup-details {
+    font-family: "Inter", sans-serif;
+    font-size: 1.3em;
+    line-height: 30px;
+    color: #344563;
+    height: 383px;
+  }
+
+  #see-live,
+  #see-source {
+    display: block;
+    margin-right: 10px;
   }
 
   #aboutme {
