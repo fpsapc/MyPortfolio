@@ -19,7 +19,7 @@ const projects = [
     id: 'bg-pro1',
     name: 'Professional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
+    featuredImage: 'Img Placeholder1-3.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -29,7 +29,7 @@ const projects = [
     id: 'bg-pro2',
     name: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-2.svg',
+    featuredImage: '../img/Img Placeholder1-2.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -39,7 +39,7 @@ const projects = [
     id: 'bg-pro3',
     name: 'Website Protfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-1.svg',
+    featuredImage: '../img/Img Placeholder1-1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -49,7 +49,7 @@ const projects = [
     id: 'bg-pro4',
     name: 'Professional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
+    featuredImage: '../img/Img Placeholder1-3.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -59,7 +59,7 @@ const projects = [
     id: 'bg-pro5',
     name: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-2.svg',
+    featuredImage: '../img/Img Placeholder1-2.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -69,7 +69,7 @@ const projects = [
     id: 'bg-pro6',
     name: 'Website Protfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-1.svg',
+    featuredImage: '../img/Img Placeholder1-1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -104,7 +104,7 @@ projects.map((card) => {
 
 // pop-up section
 const seeProject = document.querySelectorAll('.work-button');
-const popMenu = document.querySelector('project-popup');
+const popMenu = document.querySelector('.seePopup');
 
 seeProject.forEach((btn, index) => {
   btn.addEventListener('click', () => {
@@ -116,22 +116,18 @@ seeProject.forEach((btn, index) => {
             <span class="close-btn">&#x2715;</span>
             <div class="flex
             flex-start">
-              <p class="flex-item 
-                  item1">${projects[index].technologies[0]}
+              <p class="flex-item">${projects[index].technologies[0]}
               </p>
-              <p class="flex-item 
-                  item2">${projects[index].technologies[1]}
+              <p class="flex-item">${projects[index].technologies[1]}
               </p>
-              <p class="flex-item 
-                item3">${projects[index].technologies[2]}
+              <p class="flex-item">${projects[index].technologies[2]}
               </p>
-              <p class="flex-item 
-                item4">${projects[index].technologies[3]}
+              <p class="flex-item">${projects[index].technologies[3]}
               </p>
           </div>
         </div>
           <div class="popup-card">
-             <div id="popup-image">
+             <div id="popup-image">${projects[index].featuredImage}
               </div>
               <div class="flex flex-column">
                 <p class="popup-details">
