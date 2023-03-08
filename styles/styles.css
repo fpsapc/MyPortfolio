@@ -690,6 +690,14 @@ nav ul li:hover {
   width: 327px;
 }
 
+.error {
+  margin-top: 25px;
+  background-color: white;
+  border: none;
+  font-family: "Inter", sans-serif;
+  width: 327px;
+}
+
 #textarea {
   margin-top: 25px;
   padding: 12px;
@@ -711,6 +719,7 @@ nav ul li:hover {
 }
 
 .getintouchbtn {
+  display: block;
   width: 124px;
   height: 48px;
   background-color: #fd5d01;
@@ -721,7 +730,7 @@ nav ul li:hover {
   letter-spacing: 3%;
   font-style: normal;
   color: #000001;
-  margin-top: 1em;
+  margin: 1em auto;
   transition: all 300ms;
   border: 1px solid rgb(161 58 0);
 }
@@ -1281,10 +1290,21 @@ footer {
     border-bottom: 1px solid #dbd8d7;
   }
 
-  .centerbtn {
-    margin-top: 10px;
-    width: 327px;
-    justify-content: flex-start;
+  .getintouchbtn {
+    display: block;
+    width: 124px;
+    height: 48px;
+    background-color: #fd5d01;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    font-style: normal;
+    color: #000001;
+    margin: 1em 0;
+    transition: all 300ms;
+    border: 1px solid rgb(161 58 0);
   }
 
   .social {

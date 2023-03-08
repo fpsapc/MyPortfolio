@@ -225,3 +225,28 @@ seeProject.forEach((btn, index) => {
     });
   });
 });
+
+// form validation
+
+const checkCase = (str) => {
+  const isLower = str.toString().toLowerCase();
+  if (str === isLower) {
+    return true;
+  }
+  return false;
+};
+const validate = (email) => {
+  email.preventDefault();
+  const inputMail = document.getElementById('email').value;
+  const form = document.getElementById('getintouch-form');
+  const checkedEmail = checkCase(inputMail);
+  if (checkedEmail === true) {
+    form.action = 'https://formspree.io/f/xoqzdnpa';
+    form.submit();
+  } else {
+    const throughError = document.getElementById('error-msg');
+    throughError.innerHTML = 'Please check your email address. email field always be in lower case.';
+  }
+};
+const form = document.getElementById('getintouch-form');
+form.addEventListener('submit', validate);
