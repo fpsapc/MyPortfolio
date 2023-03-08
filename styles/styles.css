@@ -705,6 +705,7 @@ nav ul li:hover {
   width: 327px;
   border: none;
   font-family: "Inter", sans-serif;
+  resize: none;
 }
 
 .border {
@@ -959,10 +960,12 @@ footer {
     padding: 120px 24px;
     gap: 12px;
     align-content: center;
+    transition: 1s ease;
   }
 
   .project-card:hover {
     cursor: pointer;
+    transition: 1s ease;
   }
 
   .card-text {
@@ -974,6 +977,7 @@ footer {
 
   .project-card:hover > .card-text {
     display: none;
+    transition: 1s ease;
   }
 
   .probutton {
@@ -986,6 +990,7 @@ footer {
 
   .project-card:hover > .probutton {
     display: block;
+    transition: 1s ease;
   }
 
   #bg-pro1,
