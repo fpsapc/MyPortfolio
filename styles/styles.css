@@ -478,6 +478,35 @@ nav ul li:hover {
   cursor: pointer;
 }
 
+.project-popup {
+  display: none;
+  transition: all 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.act {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__popup {
+  width: 90%;
+  height: 90%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  overflow: scroll;
+  padding: 1rem;
+}
+
 #aboutme {
   background-color: #1c1a19;
   align-content: center;
@@ -868,11 +897,15 @@ footer {
     display: none;
   }
 
-  .work-button {
+  .probutton {
+    position: absolute;
+    bottom: 0;
+    width: 369px;
+    z-index: 1;
     display: none;
   }
 
-  .project-card:hover > .work-button {
+  .project-card:hover > .probutton {
     display: block;
   }
 
@@ -942,13 +975,6 @@ footer {
     border: none;
     color: white;
     background: rgba(255, 255, 255, 0.24);
-  }
-
-  .probutton {
-    position: absolute;
-    bottom: 0;
-    width: 369px;
-    z-index: 1;
   }
 
   .hide {
