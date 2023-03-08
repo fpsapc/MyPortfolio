@@ -81,7 +81,7 @@ header {
   gap: 0;
   flex-direction: column;
   background-color: rgba(38, 38, 38, 0.9);
-  width: 100%;
+  width: 98%;
   text-align: center;
   transition: 0.3s;
   z-index: 100;
