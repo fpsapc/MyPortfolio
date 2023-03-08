@@ -261,16 +261,12 @@ const messageInput = document.querySelector('#textarea');
 const savedData = JSON.parse(localStorage.getItem('formData'));
 
 if (savedData) {
-  // If there is saved data, pre-fill the input fields with it
   nameInput.value = savedData.name;
   emailInput.value = savedData.email;
   messageInput.value = savedData.message;
 }
 
-// Add event listeners to the input fields to save data to local storage
-
 function saveFormData() {
-  // Create a JavaScript object with the data from the input fields
   const formData = {
     name: nameInput.value,
     email: emailInput.value,
