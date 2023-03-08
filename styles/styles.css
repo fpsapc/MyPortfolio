@@ -103,6 +103,11 @@ li a {
   color: white !important;
 }
 
+.work-button > a {
+  text-decoration: none;
+  color: #000001;
+}
+
 .nav-menu a:hover {
   transform: scale(1.2);
   color: #ff9455;
@@ -300,6 +305,35 @@ nav ul li:hover {
   color: #120a08;
 }
 
+.headline-btn {
+  width: 124px;
+  height: 48px;
+  background-color: #fd5d01;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  font-style: normal;
+  color: #000001;
+  margin-top: 1em;
+  transition: all 300ms;
+  border: 1px solid rgb(161 58 0);
+}
+
+.headline-btn:hover {
+  cursor: pointer;
+  background-color: #fff5e1;
+  color: rgb(24 12 6);
+  scale: 1.05;
+  border: 1px solid rgb(161 58 0);
+}
+
+.headline-btn:focus {
+  background-color: #e05304;
+  color: #120a08;
+}
+
 .projects {
   display: grid;
   background-color: #e5e5e5;
@@ -407,7 +441,7 @@ nav ul li:hover {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 1rem;
 }
 
@@ -421,7 +455,6 @@ nav ul li:hover {
   color: #172b4d;
   font-size: 32px;
   line-height: 44px;
-  width: 311px;
 }
 
 .popup-card {
@@ -433,12 +466,12 @@ nav ul li:hover {
   justify-items: center;
 }
 
+#popup-image img,
 #popup-image {
-  background-image: url(/img/Snapshoot\ Portfolio1.svg);
-  background-size: contain;
-  width: 311px;
+  width: 300px;
   height: 220px;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  padding-bottom: 2em;
 }
 
 .popup-details {
@@ -1017,11 +1050,17 @@ footer {
   }
 
   .popup {
-    padding: 100px 150px;
+    width: 80%;
+    height: 80%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    overflow: auto;
+    padding: 3rem;
   }
 
   #popup-title {
-    margin-bottom: 40px;
+    margin-bottom: 3em;
     position: relative;
   }
 
@@ -1038,8 +1077,8 @@ footer {
   .popup-heading {
     font-family: "Roboto", sans-serif;
     color: #172b4d;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2em;
+    line-height: 1.3em;
   }
 
   .popup-card {
@@ -1050,17 +1089,16 @@ footer {
     justify-items: center;
   }
 
+  #popup-image img,
   #popup-image {
-    background-image: url(/img/Snapshoot\ Portfolio1.svg);
-    background-size: contain;
-    width: 659px;
-    height: 448px;
-    background-repeat: no-repeat;
+    width: 45em;
+    height: 28em;
+    object-fit: cover;
   }
 
   .popup-details {
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 1.3em;
     line-height: 30px;
     color: #344563;
     height: 383px;
