@@ -250,3 +250,32 @@ const validate = (email) => {
 };
 const form = document.getElementById('getintouch-form');
 form.addEventListener('submit', validate);
+
+// local storage
+
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const messageInput = document.querySelector('#textarea');
+
+// Load the data from local storage, if it exists
+const savedData = JSON.parse(localStorage.getItem('formData'));
+
+if (savedData) {
+  nameInput.value = savedData.name;
+  emailInput.value = savedData.email;
+  messageInput.value = savedData.message;
+}
+
+function saveFormData() {
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  // Save the data to local storage as a single entry
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+nameInput.addEventListener('input', saveFormData);
+emailInput.addEventListener('input', saveFormData);
+messageInput.addEventListener('input', saveFormData);
