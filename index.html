@@ -227,29 +227,30 @@
         </ul>
       </section>
 
-      <form action="https://formspree.io/f/xoqzdnpa" method="POST">
+      <form id="getintouch-form"action="https://formspree.io/f/xoqzdnpa" method="POST">
         <section id="getintouch" class="border">
           <h2 class="intouch">
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch
           </h2>
           <div class="getintouch-form">
-            <input
+            <input id="name"
             class="input border"
             type="text"
             placeholder="Full name"
             maxlength="30"
             required
             />
-            <input
+            <input id="email"
             class="input border"
             type="email"
             placeholder="Email address"
             required
             />
             <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Hello Salman. I would like to get in touch with you..." required></textarea>
-            <div class="centerbtn flex">
-            <button type="submit" class="getintouchbtn">
+            <h4 id="error-msg" class="error"></h4>
+            <div class="centerbtn">
+            <button id="getintouch-btn" type="submit" class="getintouchbtn">
               Get in touch
             </button>
           </div>
