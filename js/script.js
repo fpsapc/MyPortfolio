@@ -106,7 +106,7 @@ const allProjects = [
     id: 'projects',
     name: 'My Recent Works',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1.svg',
+    featuredImage: '../img/Img Placeholder1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -116,7 +116,7 @@ const allProjects = [
     id: 'bg-pro1',
     name: 'Professional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1-3.svg',
+    featuredImage: '../img/Img Placeholder1-3.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -126,7 +126,7 @@ const allProjects = [
     id: 'bg-pro2',
     name: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1-2.svg',
+    featuredImage: '../img/Img Placeholder1-2.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -136,7 +136,7 @@ const allProjects = [
     id: 'bg-pro3',
     name: 'Website Protfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1-1.svg',
+    featuredImage: '../img/Img Placeholder1-1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -146,7 +146,7 @@ const allProjects = [
     id: 'bg-pro4',
     name: 'Professional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1-3.svg',
+    featuredImage: '../img/Img Placeholder1-3.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -156,7 +156,7 @@ const allProjects = [
     id: 'bg-pro5',
     name: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1-2.svg',
+    featuredImage: '../img/Img Placeholder1-2.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -166,7 +166,7 @@ const allProjects = [
     id: 'bg-pro6',
     name: 'Website Protfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: '/img/Img Placeholder1-1.svg',
+    featuredImage: '../img/Img Placeholder1-1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
     linkLive: 'See live',
@@ -206,12 +206,12 @@ seeProject.forEach((btn, index) => {
                 <div class="flex popup-textbtn">
                   <button id= "see-live" 
                   class="work-button"><a href="https://fpsapc.github.io/MicroverseStudentProject1/">${allProjects[index].linkLive}</a>
-                  <img src="/img/live.png" alt="live icon">
+                  <img src="../img/live.png" alt="live icon">
                   </button>
                   <button id= "see-source" 
                   class="work-button">
                   <a href="https://github.com/fpsapc/MicroverseStudentProject1/">${allProjects[index].linkSource}</a>
-                   <img src="/img/project.png" alt="source icon">
+                   <img src="../img/project.png" alt="source icon">
                   </button>
                 </div>
               </div>

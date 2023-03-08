@@ -212,6 +212,7 @@ nav ul li:hover {
   padding: 120px 24px;
   gap: 12px;
   align-content: center;
+  justify-content: center;
 }
 
 #work-title {
@@ -340,6 +341,7 @@ nav ul li:hover {
   padding: 120px 24px;
   gap: 12px;
   align-content: center;
+  justify-content: center;
 }
 
 .project-card {
