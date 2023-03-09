@@ -78,7 +78,6 @@ const projects = [
 
 const projectsContainer = document.getElementById('projects-container');
 
-projects.map((card) => {
   projectsContainer.innerHTML += `
   <div id="${card.id}" class="project-card">
           <div class="card-text flex flex-column">
