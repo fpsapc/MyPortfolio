@@ -140,6 +140,7 @@ nav ul li:hover {
   background-image: url("../img/Illustration.png");
   background-repeat: no-repeat;
   background-position: 100% 110%;
+  width: 100%;
 }
 
 .intro h1 {
@@ -221,6 +222,7 @@ nav ul li:hover {
   gap: 12px;
   align-content: center;
   justify-content: center;
+  width: 100%;
 }
 
 #work-title {
@@ -350,6 +352,7 @@ nav ul li:hover {
   gap: 12px;
   align-content: center;
   justify-content: center;
+  width: 100%;
 }
 
 .project-card {
@@ -761,6 +764,7 @@ nav ul li:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 footer {
@@ -1160,6 +1164,7 @@ footer {
     background-repeat: no-repeat;
     background-position: 100% 50%;
     border: none;
+    width: 100%;
   }
 
   #me {
@@ -1237,6 +1242,7 @@ footer {
     align-content: center;
     justify-content: center;
     justify-items: center;
+    width: 100%;
   }
 
   .marginlistitems {
