@@ -6,7 +6,6 @@
 }
 
 html {
-  min-width: 375px;
   position: relative;
 }
 
@@ -25,7 +24,11 @@ header {
   align-items: center;
   padding: 0 2rem;
   color: rgb(255, 255, 255);
-  height: 92px;
+  height: 4.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  border-bottom: 2px solid red;
 }
 
 .logo {
@@ -36,12 +39,13 @@ header {
   text-align: center;
   text-decoration: none;
   color: white;
+  transition: all 1s ease-in-out;
+  border-top: 2px solid transparent;
 }
 
 .logo:hover {
-  transform: scale(1.2) rotate(360deg);
-  color: #f55800;
-  transition: 0.2s;
+  color: floralwhite;
+  scale: 1.2;
 }
 
 .bar {
@@ -66,12 +70,17 @@ header {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.hamburger:hover {
+  cursor: pointer;
+}
+
 .no-scroll {
   overflow: hidden;
 }
 
 .navbar {
-  width: 6em;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nav-menu {
@@ -80,10 +89,10 @@ header {
   top: 70px;
   gap: 0;
   flex-direction: column;
-  background-color: rgba(38, 38, 38, 0.9);
-  width: 98%;
+  background-color: #3e3c3c;
+  width: 100%;
   text-align: center;
-  transition: 0.3s;
+  transition: all 0.3s;
   z-index: 100;
 }
 
@@ -108,11 +117,6 @@ li a {
   color: #000001;
 }
 
-.nav-menu a:hover {
-  transform: scale(1.2);
-  color: #ff9455;
-}
-
 div ul li {
   list-style: none;
 }
@@ -135,7 +139,7 @@ nav ul li:hover {
   position: relative;
   background-image: url("../img/Illustration.png");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 110%;
 }
 
 .intro h1 {
@@ -143,7 +147,7 @@ nav ul li:hover {
   font-size: 56px;
   line-height: 64px;
   font-weight: 400;
-  width: 327px;
+  width: 20rem;
   height: 124px;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -165,12 +169,12 @@ nav ul li:hover {
   width: 90%;
 }
 
-.nav-menu.active .touck {
+.nav-menu.active .touch {
   display: none;
 }
 
 .intro h2 {
-  width: 327px;
+  width: 20rem;
   height: 27px;
   top: 200px;
   left: 24px;
@@ -192,18 +196,22 @@ nav ul li:hover {
   color: #fffff9;
   font-size: 16px;
   line-height: 24px;
-  width: 327px;
+  width: 21rem;
   height: 123px;
 }
 
 .social1 {
   cursor: pointer;
   z-index: 1;
-  transition: all 500ms;
+  transition: border-bottom 500ms ease-in-out;
+  text-decoration: underline;
+  border-bottom: 1px solid transparent;
+  border-radius: 4rem;
 }
 
 .social1:hover {
-  scale: 1.4;
+  scale: 1.2;
+  border-bottom: 1px solid floralwhite;
 }
 
 .work {
@@ -222,7 +230,7 @@ nav ul li:hover {
   line-height: 52px;
   color: #1c1a19;
   border-bottom: 1px solid #212121;
-  width: 327px;
+  width: 20rem;
   height: 83px;
 }
 
@@ -232,7 +240,7 @@ nav ul li:hover {
 
 #work-image {
   margin-top: 60px;
-  width: 327px;
+  width: 20rem;
   height: 237px;
   background-image: url("../img/Img\ Placeholder1.svg");
   background-size: contain;
@@ -249,12 +257,12 @@ nav ul li:hover {
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
-  width: 327px;
+  width: 20rem;
   height: 36px;
 }
 
 .work-details {
-  width: 327px;
+  width: 20rem;
   height: 147px;
   color: #091e42;
   font-family: "Inter", sans-serif;
@@ -345,7 +353,7 @@ nav ul li:hover {
 }
 
 .project-card {
-  width: 327px;
+  width: 20rem;
   height: 386px;
   position: relative;
   display: grid;
@@ -403,7 +411,7 @@ nav ul li:hover {
 .probutton {
   position: absolute;
   bottom: 0;
-  width: 327px;
+  width: 20rem;
   z-index: 1;
 }
 
@@ -540,7 +548,7 @@ nav ul li:hover {
   font-size: 72px;
   line-height: 88px;
   font-weight: 400;
-  width: 327px;
+  width: 20rem;
   height: 79px;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -552,7 +560,7 @@ nav ul li:hover {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  width: 327px;
+  width: 20rem;
   height: 148px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -671,14 +679,14 @@ nav ul li:hover {
 .intouch {
   color: #172b4d;
   text-align: center;
-  width: 327px;
+  width: 20rem;
   height: 216px;
   font-family: "Inter", sans-serif;
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
-  margin-bottom: 30px;
   font-style: normal;
+  margin: 0 auto 30px;
 }
 
 .input {
@@ -687,7 +695,7 @@ nav ul li:hover {
   background-color: white;
   border: none;
   font-family: "Inter", sans-serif;
-  width: 327px;
+  width: 20rem;
 }
 
 .error {
@@ -695,14 +703,14 @@ nav ul li:hover {
   background-color: white;
   border: none;
   font-family: "Inter", sans-serif;
-  width: 327px;
+  width: 20rem;
 }
 
 #textarea {
   margin-top: 25px;
   padding: 12px;
   background-color: #fbf8f7;
-  width: 327px;
+  width: 20rem;
   border: none;
   font-family: "Inter", sans-serif;
   resize: none;
@@ -714,7 +722,7 @@ nav ul li:hover {
 
 .centerbtn {
   margin-top: 10px;
-  width: 327px;
+  width: 42.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -749,6 +757,12 @@ nav ul li:hover {
   color: #120a08;
 }
 
+.getintouch-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer {
   height: 8vh;
 }
@@ -778,7 +792,8 @@ footer {
 
   .logo {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 65px;
+    width: 6rem;
   }
 
   .hamburger {
@@ -790,18 +805,18 @@ footer {
     display: contents;
   }
 
+  .navbar {
+    width: 100%;
+  }
+
   .nav-menu {
     flex-direction: row;
     right: 0;
     top: 0;
     align-items: center;
-    justify-content: center;
-    position: relative;
+    justify-content: end;
+    position: unset;
     background-color: #3e3c3c;
-  }
-
-  .nav-menu li {
-    list-style: none;
   }
 
   .nav-menu li a {
@@ -809,9 +824,18 @@ footer {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 3em;
     font-weight: 600;
     padding: 10px 12px;
+    transition: all 200ms ease-in-out;
+    border-top: 2px solid transparent;
+    height: 4.5em;
+    background-color: transparent;
+  }
+
+  .nav-menu li a:hover {
+    border-top: 2px solid rgb(255, 0, 0);
+    background-color: #2b2a2a;
   }
 
   /* intro section in desktop */
@@ -840,16 +864,16 @@ footer {
   }
 
   .intro h2 {
-    width: 566px;
-    height: 24px;
+    width: 17.6em;
+    height: 1.5em;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2em;
+    line-height: 2.75em;
     color: #fff5e1;
     font-style: normal;
     align-items: center;
-    padding: 25px 0;
+    padding: 0.8em 0;
     order: 1;
   }
 
@@ -1255,6 +1279,7 @@ footer {
   .getintouch-form {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .intouch {
@@ -1325,3 +1350,17 @@ footer {
     height: 8vh;
   }
 }
+
+/* @media only screen and (min-width: 500px) {
+  .hide {
+    display: none;
+  }
+
+  .navbar {
+    width: 3em;
+  }
+
+  header {
+    padding: 0 4rem;
+  }
+} */
