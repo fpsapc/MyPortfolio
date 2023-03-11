@@ -137,7 +137,7 @@ nav ul li:hover {
   background-repeat: no-repeat;
   background-position: 100% 110%;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
 }
 
 .intro h1 {
@@ -195,7 +195,7 @@ nav ul li:hover {
   font-size: 16px;
   line-height: 24px;
   width: 20rem;
-  height: 123px;
+  height: 9em;
 }
 
 .social1 {
@@ -210,6 +210,10 @@ nav ul li:hover {
 .social1:hover {
   scale: 1.2;
   border-bottom: 1px solid floralwhite;
+}
+
+.socialintro ul {
+  align-items: flex-start;
 }
 
 .work {
@@ -420,31 +424,37 @@ nav ul li:hover {
 #bg-pro1 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
   background-size: contain;
+  border-radius: 1rem;
 }
 
 #bg-pro2 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
   background-size: contain;
+  border-radius: 1rem;
 }
 
 #bg-pro3 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
   background-size: contain;
+  border-radius: 1rem;
 }
 
 #bg-pro4 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
   background-size: contain;
+  border-radius: 1rem;
 }
 
 #bg-pro5 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
   background-size: contain;
+  border-radius: 1rem;
 }
 
 #bg-pro6 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
   background-size: contain;
+  border-radius: 1rem;
 }
 
 .popup {
@@ -788,7 +798,7 @@ footer {
 }
 
 /* Desktop version */
-@media only screen and (min-width: 1320px) {
+@media (min-width: 1020px) and (max-width: 1600px) {
   /* header section in desktop */
   header {
     padding: 0 10rem;
@@ -948,7 +958,7 @@ footer {
 
   .work-card {
     display: flex;
-    height: 448px;
+    height: 30em;
     margin: 1em;
   }
 
@@ -1361,7 +1371,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1020px) {
   header {
     padding: 0 4rem;
   }
@@ -1526,7 +1536,7 @@ footer {
   #work-image {
     margin-top: 0;
     margin-right: 24px;
-    width: 30em;
+    width: 23em;
     height: 20em;
     background-image: url("../img/Img\ Placeholder1.svg");
     background-repeat: no-repeat;
@@ -1535,7 +1545,7 @@ footer {
 
   .work-card {
     display: flex;
-    height: 448px;
+    height: 22em;
     margin: 1em;
   }
 
@@ -1887,7 +1897,7 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    width: 30em;
+    width: 25em;
   }
 
   #textarea {
@@ -1897,7 +1907,7 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    width: 30em;
+    width: 25em;
   }
 
   .border {
