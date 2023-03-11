@@ -717,6 +717,7 @@ nav ul li:hover {
   border: none;
   font-family: "Inter", sans-serif;
   width: 20rem;
+  color: red;
 }
 
 #textarea {
