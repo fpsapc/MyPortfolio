@@ -858,6 +858,7 @@ footer {
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: contain;
+    height: 44em;
   }
 
   .intro {
@@ -1436,6 +1437,7 @@ footer {
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: contain;
+    height: 40em;
   }
 
   .intro {
