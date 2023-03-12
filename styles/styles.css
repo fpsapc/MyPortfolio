@@ -137,7 +137,6 @@ nav ul li:hover {
   background-repeat: no-repeat;
   background-position: 100% 110%;
   width: 100%;
-  height: 100vh;
 }
 
 .intro h1 {
@@ -221,7 +220,7 @@ nav ul li:hover {
   gap: 12px;
   justify-content: flex-start;
   width: 100%;
-  height: 46em;
+  height: 49em;
   align-items: center;
 }
 
@@ -236,6 +235,7 @@ nav ul li:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 3em;
 }
 
 .line {
@@ -478,7 +478,7 @@ nav ul li:hover {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  overflow: hidden;
+  overflow: auto;
   padding: 1rem;
 }
 
@@ -969,6 +969,35 @@ footer {
   }
 
   /* projects section */
+  .project-card:hover {
+    cursor: pointer;
+    transition: 1s ease;
+  }
+
+  .project-card:hover > .card-text {
+    display: none;
+    transition: 1s ease;
+  }
+
+  .project-card:hover > .probutton {
+    display: block;
+    transition: 1s ease;
+  }
+
+  #bg-pro1:hover,
+  #bg-pro4:hover {
+    background: url(../img/Img\ Placeholder1-3.svg);
+  }
+
+  #bg-pro2:hover,
+  #bg-pro5:hover {
+    background: url(../img/Img\ Placeholder1-2.svg);
+  }
+
+  #bg-pro3:hover,
+  #bg-pro6:hover {
+    background: url(../img/Img\ Placeholder1-1.svg);
+  }
 
   .popup-heading {
     font-family: "Roboto", sans-serif;
@@ -1332,6 +1361,36 @@ footer {
   }
 
   /* projects section */
+
+  .project-card:hover {
+    cursor: pointer;
+    transition: 1s ease;
+  }
+
+  .project-card:hover > .card-text {
+    display: none;
+    transition: 1s ease;
+  }
+
+  .project-card:hover > .probutton {
+    display: block;
+    transition: 1s ease;
+  }
+
+  #bg-pro1:hover,
+  #bg-pro4:hover {
+    background: url(../img/Img\ Placeholder1-3.svg);
+  }
+
+  #bg-pro2:hover,
+  #bg-pro5:hover {
+    background: url(../img/Img\ Placeholder1-2.svg);
+  }
+
+  #bg-pro3:hover,
+  #bg-pro6:hover {
+    background: url(../img/Img\ Placeholder1-1.svg);
+  }
 
   .popup-heading {
     font-family: "Roboto", sans-serif;
