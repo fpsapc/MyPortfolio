@@ -1550,7 +1550,7 @@ footer {
   /* section getintouch */
   #getintouch {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     background-color: white;
     align-content: center;
     padding: 120px 152px;
@@ -1583,7 +1583,7 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    width: 684px;
+    width: 25em;
   }
 
   #textarea {
@@ -1593,7 +1593,7 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    width: 684px;
+    width: 25em;
   }
 
   .border {
