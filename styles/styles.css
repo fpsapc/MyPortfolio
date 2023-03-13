@@ -969,6 +969,21 @@ footer {
   }
 
   /* projects section */
+  .card-text {
+    gap: 1em;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+  }
+
+  .probutton {
+    position: absolute;
+    bottom: 0;
+    width: 369px;
+    z-index: 1;
+    display: none;
+  }
+
   .project-card:hover {
     cursor: pointer;
     transition: 1s ease;
