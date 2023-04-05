@@ -37,7 +37,7 @@ const projects = [
   {
     id: 'bg-pro3',
     name: 'My Protfolio',
-    description: 'I use mobile first approach to make this project and make it responsive for all devices. HTML/CSS and JavaScript best practices are used to make this project',
+    description: 'I use mobile first approach to make this project and make it responsive for all devices.',
     featuredImage: './img/portfolio.jpg',
     technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
@@ -135,7 +135,7 @@ const allProjects = [
   {
     id: 'bg-pro3',
     name: 'My Protfolio',
-    description: 'I use mobile first approach to make this project and make it responsive for all devices. HTML/CSS and JavaScript best practices are used to make this project',
+    description: 'I use mobile first approach to make this project and make it responsive for all devices.',
     featuredImage: './img/portfolio.jpg',
     technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
