@@ -317,6 +317,7 @@ nav ul li:hover {
   margin-top: 1em;
   transition: all 300ms;
   border: 1px solid rgb(161 58 0);
+  max-width: 1300px;
 }
 
 .work-button:hover {
@@ -368,7 +369,7 @@ nav ul li:hover {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px 10px;
 }
@@ -437,20 +438,20 @@ nav ul li:hover {
 }
 
 #bg-pro1 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
-  background-size: contain;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/applechemicals.jpg);
+  background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
-  background-size: contain;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/awesomebooks.JPG);
+  background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro3 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
-  background-size: contain;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/portfolio.JPG);
+  background-size: cover;
   border-radius: 1rem;
 }
 
@@ -508,7 +509,7 @@ nav ul li:hover {
 #popup-image {
   width: 300px;
   height: 220px;
-  object-fit: cover;
+  object-fit: contain;
   padding-bottom: 2em;
 }
 
@@ -979,7 +980,7 @@ footer {
   .probutton {
     position: absolute;
     bottom: 0;
-    width: 369px;
+    width: 20rem;
     z-index: 1;
     display: none;
   }
@@ -999,17 +1000,30 @@ footer {
     transition: 1s ease;
   }
 
-  #bg-pro1:hover,
-  #bg-pro4:hover {
-    background: url(../img/Img\ Placeholder1-3.svg);
+  #bg-pro1:hover {
+    background: url(../img/applechemicals.jpg);
+    background-size: cover;
   }
 
-  #bg-pro2:hover,
+  #bg-pro2:hover {
+    background: url(../img/awesomebooks.JPG);
+    background-size: cover;
+  }
+
+  #bg-pro3:hover {
+    background: url(../img/portfolio.JPG);
+    background-size: cover;
+  }
+
+  #bg-pro4:hover {
+    background: url(../img/Img\ Placeholder1-3.svg);
+    background-size: cover;
+  }
+
   #bg-pro5:hover {
     background: url(../img/Img\ Placeholder1-2.svg);
   }
 
-  #bg-pro3:hover,
   #bg-pro6:hover {
     background: url(../img/Img\ Placeholder1-1.svg);
   }
@@ -1382,6 +1396,14 @@ footer {
     transition: 1s ease;
   }
 
+  .probutton {
+    position: absolute;
+    bottom: 0;
+    width: 20rem;
+    z-index: 1;
+    display: none;
+  }
+
   .project-card:hover > .card-text {
     display: none;
     transition: 1s ease;
@@ -1392,17 +1414,30 @@ footer {
     transition: 1s ease;
   }
 
-  #bg-pro1:hover,
-  #bg-pro4:hover {
-    background: url(../img/Img\ Placeholder1-3.svg);
+  #bg-pro1:hover {
+    background: url(../img/applechemicals.jpg);
+    background-size: cover;
   }
 
-  #bg-pro2:hover,
+  #bg-pro2:hover {
+    background: url(../img/awesomebooks.JPG);
+    background-size: cover;
+  }
+
+  #bg-pro3:hover {
+    background: url(../img/portfolio.JPG);
+    background-size: cover;
+  }
+
+  #bg-pro4:hover {
+    background: url(../img/Img\ Placeholder1-3.svg);
+    background-size: cover;
+  }
+
   #bg-pro5:hover {
     background: url(../img/Img\ Placeholder1-2.svg);
   }
 
-  #bg-pro3:hover,
   #bg-pro6:hover {
     background: url(../img/Img\ Placeholder1-1.svg);
   }
@@ -1426,7 +1461,7 @@ footer {
   #popup-image {
     width: 45em;
     height: 28em;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .popup-details {

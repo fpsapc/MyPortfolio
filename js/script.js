@@ -16,33 +16,33 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const projects = [
   {
     id: 'bg-pro1',
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Apple Chemicals',
+    description: 'This project belongs to inform farmers about a meeting and also introduced some aspect of company.',
+    featuredImage: './img/applechemicals.jpg',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/AppleChemicals/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/AppleChemicals">See Source</a>',
   },
   {
     id: 'bg-pro2',
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-2.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Awesome Books',
+    description: 'In this project you can add new book and remove existing books, it looks like a library.',
+    featuredImage: './img/awesomebooks.jpg',
+    technologies: ['html', 'JavaScript', 'CSS'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/awesome-book-withES6/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/awesome-book-withES6">See Source</a>',
   },
   {
     id: 'bg-pro3',
-    name: 'Website Protfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-1.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'My Protfolio',
+    description: 'I use mobile first approach to make this project and make it responsive for all devices. HTML/CSS and JavaScript best practices are used to make this project',
+    featuredImage: './img/portfolio.jpg',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/MicroverseStudentProject1/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/MicroverseStudentProject1">See Source</a>',
   },
   {
     id: 'bg-pro4',
@@ -109,38 +109,38 @@ const allProjects = [
     featuredImage: './img/Img Placeholder1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/MicroverseStudentProject1/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/MicroverseStudentProject1">See Source</a>',
   },
   {
     id: 'bg-pro1',
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Apple Chemicals',
+    description: 'This project belongs to inform farmers about a meeting and also introduced some aspect of company.',
+    featuredImage: './img/applechemicals.jpg',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/AppleChemicals/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/AppleChemicals">See Source</a>',
   },
   {
     id: 'bg-pro2',
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-2.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Awesome Books',
+    description: 'In this project you can add new book and remove existing books, it looks like a library.',
+    featuredImage: './img/awesomebooks.jpg',
+    technologies: ['html', 'JavaScript', 'CSS'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/awesome-book-withES6/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/awesome-book-withES6">See Source</a>',
   },
   {
     id: 'bg-pro3',
-    name: 'Website Protfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-1.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'My Protfolio',
+    description: 'I use mobile first approach to make this project and make it responsive for all devices. HTML/CSS and JavaScript best practices are used to make this project',
+    featuredImage: './img/portfolio.jpg',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/MicroverseStudentProject1/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/MicroverseStudentProject1">See Source</a>',
   },
   {
     id: 'bg-pro4',
@@ -205,12 +205,12 @@ seeProject.forEach((btn, index) => {
                 </p>
                 <div class="flex popup-textbtn">
                   <button id= "see-live" 
-                  class="work-button"><a href="https://fpsapc.github.io/MicroverseStudentProject1/">${allProjects[index].linkLive}</a>
+                  class="work-button">${allProjects[index].linkLive}
                   <img src="./img/live.png" alt="live icon">
                   </button>
                   <button id= "see-source" 
                   class="work-button">
-                  <a href="https://github.com/fpsapc/MicroverseStudentProject1/">${allProjects[index].linkSource}</a>
+                  ${allProjects[index].linkSource}
                    <img src="./img/project.png" alt="source icon">
                   </button>
                 </div>
