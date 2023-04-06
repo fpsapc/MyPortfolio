@@ -438,7 +438,7 @@ nav ul li:hover {
 }
 
 #bg-pro1 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/applechemicals.jpg);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/applechemicals.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
@@ -1001,7 +1001,7 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/applechemicals.jpg);
+    background: url(../img/applechemicals.JPG);
     background-size: cover;
   }
 
@@ -1415,7 +1415,7 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/applechemicals.jpg);
+    background: url(../img/applechemicals.JPG);
     background-size: cover;
   }
 
