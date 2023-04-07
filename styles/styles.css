@@ -992,12 +992,12 @@ footer {
 
   .project-card:hover > .card-text {
     display: none;
-    transition: 1s ease;
+    transition: 0.9s ease;
   }
 
   .project-card:hover > .probutton {
     display: block;
-    transition: 1s ease;
+    transition: 0.9s ease;
   }
 
   #bg-pro1:hover {
