@@ -379,23 +379,26 @@ nav ul li:hover {
   height: 386px;
   position: relative;
   display: grid;
-  padding: 120px 24px;
   gap: 12px;
   overflow: hidden;
   align-content: center;
   background-size: contain;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .protitle {
   color: white;
   width: 295px;
-  height: 81px;
+  height: auto;
 }
 
 .prodetails {
-  width: 295px;
-  height: 87px;
+  width: 16em;
+  height: auto;
   color: white;
+  text-align: justify;
 }
 
 .proitem1 {
@@ -428,6 +431,7 @@ nav ul li:hover {
 
 .card-text {
   gap: 1em;
+  width: 90%;
 }
 
 .probutton {
@@ -438,13 +442,13 @@ nav ul li:hover {
 }
 
 #bg-pro1 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/applechemicals.JPG);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/applechemicals.gif);
   background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/awesomebooks.JPG);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/awesomebooks.gif);
   background-size: cover;
   border-radius: 1rem;
 }
@@ -456,8 +460,8 @@ nav ul li:hover {
 }
 
 #bg-pro4 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-3.svg);
-  background-size: contain;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/to_do_list.gif);
+  background-size: cover;
   border-radius: 1rem;
 }
 
@@ -1001,12 +1005,12 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/applechemicals.JPG);
+    background: url(../img/applechemicals.gif);
     background-size: cover;
   }
 
   #bg-pro2:hover {
-    background: url(../img/awesomebooks.JPG);
+    background: url(../img/awesomebooks.gif);
     background-size: cover;
   }
 
@@ -1016,7 +1020,7 @@ footer {
   }
 
   #bg-pro4:hover {
-    background: url(../img/Img\ Placeholder1-3.svg);
+    background: url(../img/to_do_list.gif);
     background-size: cover;
   }
 
@@ -1415,12 +1419,12 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/applechemicals.JPG);
+    background: url(../img/applechemicals.gif);
     background-size: cover;
   }
 
   #bg-pro2:hover {
-    background: url(../img/awesomebooks.JPG);
+    background: url(../img/awesomebooks.gif);
     background-size: cover;
   }
 
@@ -1430,7 +1434,7 @@ footer {
   }
 
   #bg-pro4:hover {
-    background: url(../img/Img\ Placeholder1-3.svg);
+    background: url(../img/to_do_list.gif);
     background-size: cover;
   }
 
