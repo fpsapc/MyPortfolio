@@ -4,7 +4,7 @@
    <h3><b>Salman's Portfolio</b></h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF  CONTENTS -->
 
 # 📗 Table of Contents
 
