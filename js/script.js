@@ -16,43 +16,43 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const projects = [
   {
     id: 'bg-pro1',
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Apple Chemicals',
+    description: 'This project belongs to inform farmers about a meeting and also introduced some aspect of company.',
+    featuredImage: './img/applechemicals.gif',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/AppleChemicals/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/AppleChemicals">See Source</a>',
   },
   {
     id: 'bg-pro2',
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-2.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Awesome Books',
+    description: 'In this project you can add new book and remove existing books, it looks like a library.',
+    featuredImage: './img/awesomebooks.gif',
+    technologies: ['html', 'JavaScript', 'CSS'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/awesome-book-withES6/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/awesome-book-withES6">See Source</a>',
   },
   {
     id: 'bg-pro3',
-    name: 'Website Protfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-1.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'My Protfolio',
+    description: 'I use mobile first approach to make this project and make it responsive for all devices.',
+    featuredImage: './img/portfolio.JPG',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/MicroverseStudentProject1/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/MicroverseStudentProject1">See Source</a>',
   },
   {
     id: 'bg-pro4',
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'To Do List',
+    description: 'You can add your daily tasks list here and tick every task acording to its completion. You can also remove and edit tasks. You can also clear all completed tasks after selecting them from the list.',
+    featuredImage: './img/to_do_list.gif',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/To_Do_List/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/To_Do_List">See Source</a>',
   },
   {
     id: 'bg-pro5',
@@ -109,48 +109,48 @@ const allProjects = [
     featuredImage: './img/Img Placeholder1.svg',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/MicroverseStudentProject1/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/MicroverseStudentProject1">See Source</a>',
   },
   {
     id: 'bg-pro1',
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Apple Chemicals',
+    description: 'This project belongs to inform farmers about a meeting and also introduced some aspect of company.',
+    featuredImage: './img/applechemicals.gif',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/AppleChemicals/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/AppleChemicals">See Source</a>',
   },
   {
     id: 'bg-pro2',
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-2.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'Awesome Books',
+    description: 'In this project you can add new book and remove existing books, it looks like a library.',
+    featuredImage: './img/awesomebooks.gif',
+    technologies: ['html', 'JavaScript', 'CSS'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/awesome-book-withES6/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/awesome-book-withES6">See Source</a>',
   },
   {
     id: 'bg-pro3',
-    name: 'Website Protfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-1.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'My Protfolio',
+    description: 'I use mobile first approach to make this project and make it responsive for all devices.',
+    featuredImage: './img/portfolio.JPG',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/MicroverseStudentProject1/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/MicroverseStudentProject1">See Source</a>',
   },
   {
     id: 'bg-pro4',
-    name: 'Professional Art Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './img/Img Placeholder1-3.svg',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
+    name: 'To Do List',
+    description: 'You can add your daily tasks list here and tick every task acording to its completion. You can also remove and edit tasks. You can also clear all completed tasks after selecting them from the list.',
+    featuredImage: './img/to_do_list.gif',
+    technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
-    linkLive: 'See live',
-    linkSource: 'See source',
+    linkLive: '<a href="https://fpsapc.github.io/To_Do_List/">See Live</a>',
+    linkSource: '<a href="https://github.com/fpsapc/To_Do_List">See Source</a>',
   },
   {
     id: 'bg-pro5',
@@ -205,12 +205,12 @@ seeProject.forEach((btn, index) => {
                 </p>
                 <div class="flex popup-textbtn">
                   <button id= "see-live" 
-                  class="work-button"><a href="https://fpsapc.github.io/MicroverseStudentProject1/">${allProjects[index].linkLive}</a>
+                  class="work-button">${allProjects[index].linkLive}
                   <img src="./img/live.png" alt="live icon">
                   </button>
                   <button id= "see-source" 
                   class="work-button">
-                  <a href="https://github.com/fpsapc/MicroverseStudentProject1/">${allProjects[index].linkSource}</a>
+                  ${allProjects[index].linkSource}
                    <img src="./img/project.png" alt="source icon">
                   </button>
                 </div>
@@ -225,3 +225,57 @@ seeProject.forEach((btn, index) => {
     });
   });
 });
+
+// form validation
+
+const checkCase = (str) => {
+  const isLower = str.toString().toLowerCase();
+  if (str === isLower) {
+    return true;
+  }
+  return false;
+};
+const validate = (email) => {
+  email.preventDefault();
+  const inputMail = document.getElementById('email').value;
+  const form = document.getElementById('getintouch-form');
+  const checkedEmail = checkCase(inputMail);
+  if (checkedEmail === true) {
+    form.action = 'https://formspree.io/f/xoqzdnpa';
+    form.submit();
+  } else {
+    const throughError = document.getElementById('error-msg');
+    throughError.innerHTML = 'Please check your email address. email field always be in lower case.';
+  }
+};
+const form = document.getElementById('getintouch-form');
+form.addEventListener('submit', validate);
+
+// local storage
+
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const messageInput = document.querySelector('#textarea');
+
+// Load the data from local storage, if it exists
+const savedData = JSON.parse(localStorage.getItem('formData'));
+
+if (savedData) {
+  nameInput.value = savedData.name;
+  emailInput.value = savedData.email;
+  messageInput.value = savedData.message;
+}
+
+function saveFormData() {
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  // Save the data to local storage as a single entry
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+nameInput.addEventListener('input', saveFormData);
+emailInput.addEventListener('input', saveFormData);
+messageInput.addEventListener('input', saveFormData);

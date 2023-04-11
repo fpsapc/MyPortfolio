@@ -38,25 +38,25 @@
 
   <body>
     <header class="flex">
-      <a class="logo" href="#home">My Logo</a>
-      <nav class="navbar">
+      <nav class="navbar flex">
+        <a class="logo flex" href="#home">My Logo</a>
           <ul class="nav-menu flex">
             <li class="disapear nav-item">
               <a href="#projects" class="nav-link">Portfolio</a>
             </li>
-            <hr class="underline">
+            <hr class="underline hide">
             <li class="disapear nav-item">
               <a href="#aboutme" class="nav-link">About</a>
             </li>
-            <hr class="underline">
+            <hr class="underline hide">
             <li class="disapear nav-item">
               <a href="#getintouch" class="nav-link">Contact</a>
             </li>
-            <hr class="underline">
-            <li class="disapear nav-item touck">
+            <hr class="underline hide">
+            <li class="disapear nav-item touch">
               <a href="#getintouch" class="nav-link"><img class="menubtn" src="img/menu.png" alt="email" /></a>
             </li>
-            <hr class="underline">
+            <hr class="underline hide">
           </ul>
           <div class="hamburger">
             <span class="bar"></span>
@@ -130,12 +130,13 @@
       </section>
       <!-- intro section ended -->
       <!-- headline section -->
-      <section id="projects" class="work">
+      <section id="projects" class="work flex flex-column">
         <div id="work-title">
-          <h3 class="work-heading">My Recent Works<h3>
-          <div class="line">
-          </div>
-          </div>
+          <h3 class="work-heading">My Recent Works
+          </h3>
+            <div class="line">
+            </div>
+        </div>
           <div class="work-card">
             <div id="work-image">
             </div>
@@ -227,29 +228,30 @@
         </ul>
       </section>
 
-      <form action="https://formspree.io/f/xoqzdnpa" method="POST">
+      <form id="getintouch-form"action="https://formspree.io/f/xoqzdnpa" method="POST">
         <section id="getintouch" class="border">
           <h2 class="intouch">
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch
           </h2>
           <div class="getintouch-form">
-            <input
+            <input id="name"
             class="input border"
             type="text"
             placeholder="Full name"
             maxlength="30"
             required
             />
-            <input
+            <input id="email"
             class="input border"
             type="email"
             placeholder="Email address"
             required
             />
             <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Hello Salman. I would like to get in touch with you..." required></textarea>
-            <div class="centerbtn flex">
-            <button type="submit" class="getintouchbtn">
+            <h4 id="error-msg" class="error"></h4>
+            <div class="centerbtn">
+            <button id="getintouch-btn" type="submit" class="getintouchbtn">
               Get in touch
             </button>
           </div>
@@ -267,11 +269,8 @@
             </a>
           </li>
           <li>
-            <a
-              href="https://linkedin.com/in/salman-ahmad1987"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href="https://linkedin.com/in/salman-ahmad1987"
+              target="_blank"rel="noopener">
               <img src="img/linkedin.png" class="social" alt="linkedinlink" />
             </a>
           </li>
@@ -279,8 +278,7 @@
             <a
               href="https://www.linkedin.com/company/vivimedia/about/"
               target="_blank"
-              rel="noopener"
-            >
+              rel="noopener">
               <img src="img/angellist.png" class="social" alt="angellistlink" />
             </a>
           </li>
@@ -288,8 +286,7 @@
             <a
               href="https://twitter.com/salman-ahmadkhan1987"
               target="_blank"
-              rel="noopener"
-            >
+              rel="noopener">
               <img src="img/twitter.png" class="social" alt="twitterlink" />
             </a>
           </li>
