@@ -86,9 +86,9 @@ Example commands:
 👤 Salman Ahmad Khan
 👤 Hernan Zamora (@hernandanielzamora)
 
-- GitHub: [@githubhandle](https://github.com/fpsapc/MicroverseStudentProject1)
+- GitHub: [@githubhandle](https://github.com/fpsapc/MyPortfolio)
 - Twitter: [@twitterhandle](https://twitter.com/salman-ahmadkhan1987)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/salman-ahmad1987 )
+- LinkedIn: [LinkedIn](https://linkedin.com/in/salman1987 )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
