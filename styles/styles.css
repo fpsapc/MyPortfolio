@@ -454,7 +454,7 @@ nav ul li:hover {
 }
 
 #bg-pro3 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/portfolio.JPG);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/moviesshowcase.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
@@ -1015,7 +1015,7 @@ footer {
   }
 
   #bg-pro3:hover {
-    background: url(../img/portfolio.JPG);
+    background: url(../img/moviesshowcase.JPG);
     background-size: cover;
   }
 
@@ -1429,7 +1429,7 @@ footer {
   }
 
   #bg-pro3:hover {
-    background: url(../img/portfolio.JPG);
+    background: url(../img/moviesshowcase.JPG);
     background-size: cover;
   }
 
