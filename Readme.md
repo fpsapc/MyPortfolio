@@ -41,7 +41,7 @@ Html CSS
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://fpsapc.github.io/MicroverseStudentProject1/)
+- [Live Demo Link](https://fpsapc.github.io/MyPortfolio/)
 
 <!-- LOOM WALKTHROUGH -->
 ## Loom Walkthrough <a name="loom-walkthrough"></a>
