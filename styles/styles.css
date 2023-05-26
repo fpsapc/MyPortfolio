@@ -254,7 +254,7 @@ nav ul li:hover {
   margin-top: 2em;
   width: 20rem;
   height: 13rem;
-  background-image: url(../img/Img\ Placeholder1.svg);
+  background-image: url(../img/applechemicals.JPG);
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 1rem;
@@ -281,7 +281,7 @@ nav ul li:hover {
 
 .work-details {
   width: 20rem;
-  height: 147px;
+  height: 115px;
   color: #091e42;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -442,38 +442,38 @@ nav ul li:hover {
 }
 
 #bg-pro1 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/applechemicals.gif);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/awesomebooks.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/awesomebooks.gif);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/bookstore.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro3 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/moviesshowcase.JPG);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/crypto.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro4 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/to_do_list.gif);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/space.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro5 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-2.svg);
-  background-size: contain;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/to_do_list.JPG);
+  background-size: cover;
   border-radius: 1rem;
 }
 
 #bg-pro6 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/Img\ Placeholder1-1.svg);
-  background-size: contain;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/moviesshowcase.JPG);
+  background-size: cover;
   border-radius: 1rem;
 }
 
@@ -1005,31 +1005,33 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/applechemicals.gif);
+    background: url(../img/awesomebooks.JPG);
     background-size: cover;
   }
 
   #bg-pro2:hover {
-    background: url(../img/awesomebooks.gif);
+    background: url(../img/bookstore.JPG);
     background-size: cover;
   }
 
   #bg-pro3:hover {
-    background: url(../img/moviesshowcase.JPG);
+    background: url(../img/crypto.JPG);
     background-size: cover;
   }
 
   #bg-pro4:hover {
-    background: url(../img/to_do_list.gif);
+    background: url(../img/space.JPG);
     background-size: cover;
   }
 
   #bg-pro5:hover {
-    background: url(../img/Img\ Placeholder1-2.svg);
+    background: url(../img/to_do_list.JPG);
+    background-size: cover;
   }
 
   #bg-pro6:hover {
-    background: url(../img/Img\ Placeholder1-1.svg);
+    background: url(../img/moviesshowcase.JPG);
+    background-size: cover;
   }
 
   .popup-heading {
@@ -1419,31 +1421,33 @@ footer {
   }
 
   #bg-pro1:hover {
-    background: url(../img/applechemicals.gif);
+    background: url(../img/awesomebooks.JPG);
     background-size: cover;
   }
 
   #bg-pro2:hover {
-    background: url(../img/awesomebooks.gif);
+    background: url(../img/bookstore.JPG);
     background-size: cover;
   }
 
   #bg-pro3:hover {
-    background: url(../img/moviesshowcase.JPG);
+    background: url(../img/crypto.JPG);
     background-size: cover;
   }
 
   #bg-pro4:hover {
-    background: url(../img/to_do_list.gif);
+    background: url(../img/space.JPG);
     background-size: cover;
   }
 
   #bg-pro5:hover {
-    background: url(../img/Img\ Placeholder1-2.svg);
+    background: url(../img/to_do_list.JPG);
+    background-size: cover;
   }
 
   #bg-pro6:hover {
-    background: url(../img/Img\ Placeholder1-1.svg);
+    background: url(../img/moviesshowcase.JPG);
+    background-size: cover;
   }
 
   .popup-heading {
