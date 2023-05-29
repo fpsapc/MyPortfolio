@@ -106,7 +106,7 @@ const allProjects = [
     id: 'projects',
     name: 'Apple Chemicals',
     description: 'This project belongs to inform farmers about a meeting and also introduced some aspect of company.',
-    featuredImage: './img/applechemicals.gif',
+    featuredImage: './img/applechemicals.JPG',
     technologies: ['html', 'CSS', 'JavaScript'],
     seeProject: 'See Project',
     linkLive: '<a href="https://fpsapc.github.io/AppleChemicals/" target="blank">See Live</a>',
