@@ -448,7 +448,7 @@ nav ul li:hover {
 }
 
 #bg-pro2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/bookstore.JPG);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/budget.JPG);
   background-size: cover;
   border-radius: 1rem;
 }
@@ -1010,7 +1010,7 @@ footer {
   }
 
   #bg-pro2:hover {
-    background: url(../img/bookstore.JPG);
+    background: url(../img/budget.JPG);
     background-size: cover;
   }
 
@@ -1426,7 +1426,7 @@ footer {
   }
 
   #bg-pro2:hover {
-    background: url(../img/bookstore.JPG);
+    background: url(../img/budget.JPG);
     background-size: cover;
   }
 
