@@ -37,6 +37,7 @@ header {
   color: white;
   transition: all 1s ease-in-out;
   border-top: 2px solid transparent;
+  animation: slideRight 1s ease forwards;
 }
 
 .logo:hover {
@@ -149,6 +150,8 @@ nav ul li:hover {
   font-family: "Crete Round", serif;
   font-style: normal;
   letter-spacing: 0.37px;
+  animation: slideRight 1s ease forwards;
+  animation-delay: .7s;
 }
 
 .nav-menu.active li > a {
@@ -171,7 +174,7 @@ nav ul li:hover {
 }
 
 .intro h2 {
-  width: 20rem;
+  width: 21rem;
   height: 27px;
   top: 200px;
   left: 24px;
@@ -184,6 +187,8 @@ nav ul li:hover {
   align-items: center;
   letter-spacing: 1.17px;
   padding: 25px 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: .7s;
 }
 
 .intro p {
@@ -194,6 +199,8 @@ nav ul li:hover {
   font-size: 16px;
   line-height: 24px;
   width: 90%;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: .7s;
 }
 
 .social1 {
@@ -258,6 +265,8 @@ nav ul li:hover {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 .work-card {
@@ -445,36 +454,48 @@ nav ul li:hover {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/awesomebooks.JPG);
   background-size: cover;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 #bg-pro2 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/budget.JPG);
   background-size: cover;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 #bg-pro3 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/crypto.JPG);
   background-size: cover;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 #bg-pro4 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/space.JPG);
   background-size: cover;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 #bg-pro5 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/to_do_list.JPG);
   background-size: cover;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 #bg-pro6 {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../img/moviesshowcase.JPG);
   background-size: cover;
   border-radius: 1rem;
+  animation: floatImg 4s ease-in-out infinite;
+  animation-delay: 3s;
 }
 
 .popup {
@@ -611,6 +632,8 @@ nav ul li:hover {
   margin-top: 1em;
   transition: all 300ms;
   border: 1px solid rgb(161 58 0);
+  animation: slideRight 1s ease forwards;
+  animation-delay: 2s;
 }
 
 .resumebtn:hover {
@@ -877,7 +900,7 @@ footer {
     background-color: transparent;
   }
 
-  .nav-menu li a:hover {
+  .nav-menu li a:hover, .nav-menu li a.active {
     border-top: 2px solid rgb(255, 0, 0);
     background-color: #2b2a2a;
   }
@@ -941,6 +964,8 @@ footer {
 
   .socialintro ul li {
     list-style: none;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
   }
 
   .social1 {
@@ -1298,13 +1323,15 @@ footer {
     border-top: 2px solid transparent;
     height: 4.5em;
     background-color: transparent;
+    animation: slideTop 0.5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
   }
 
   .hide {
     display: none;
   }
 
-  .nav-menu li a:hover {
+  .nav-menu li a:hover, .nav-menu li a.active {
     border-top: 2px solid rgb(255, 0, 0);
     background-color: #2b2a2a;
   }
@@ -1367,6 +1394,8 @@ footer {
 
   .socialintro ul li {
     list-style: none;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
   }
 
   .social1 {
@@ -1393,6 +1422,8 @@ footer {
   #work-image {
     zoom: 1.3;
     margin: 0;
+    animation: floatImg 4s ease-in-out infinite;
+    animation-delay: 3s;
   }
 
   /* projects section */
@@ -1509,6 +1540,8 @@ footer {
     font-family: "Crete Round", serif;
     font-style: normal;
     letter-spacing: 0.37px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
   }
 
   #aboutme p {
@@ -1519,6 +1552,8 @@ footer {
     font-family: "Inter", sans-serif;
     font-style: normal;
     width: 50%;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1.3s;
   }
 
   .aboutme-border {
@@ -1687,5 +1722,77 @@ footer {
     justify-content: center;
     align-items: center;
     height: 8vh;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes floatImg {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-24px);
+  }
+  
+  100% {
+    transform: translateX(0);
   }
 }

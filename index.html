@@ -33,22 +33,26 @@
   <body>
     <header class="flex">
       <nav class="navbar flex">
-        <a class="logo flex" href="#home">My Logo</a>
+        <a class="logo flex" href="#home">Portfolio</a>
           <ul class="nav-menu flex">
             <li class="disapear nav-item">
-              <a href="#projects" class="nav-link">Portfolio</a>
+              <a href="#home" style="--i:1;" class="nav-link active">Home</a>
             </li>
             <hr class="underline hide">
             <li class="disapear nav-item">
-              <a href="#aboutme" class="nav-link">About</a>
+              <a href="#projects" style="--i:2;" class="nav-link">Projects</a>
             </li>
             <hr class="underline hide">
             <li class="disapear nav-item">
-              <a href="#getintouch" class="nav-link">Contact</a>
+              <a href="#aboutme" style="--i:3;" class="nav-link">About</a>
+            </li>
+            <hr class="underline hide">
+            <li class="disapear nav-item">
+              <a href="#getintouch" style="--i:4;" class="nav-link">Contact</a>
             </li>
             <hr class="underline hide">
             <li class="disapear nav-item touch">
-              <a href="#getintouch" class="nav-link"><img class="menubtn" src="img/menu.png" alt="email" /></a>
+              <a href="#getintouch" style="--i:5;" class="nav-link"><img class="menubtn" src="img/menu.png" alt="email" /></a>
             </li>
             <hr class="underline hide">
           </ul>
@@ -62,13 +66,13 @@
 <!-- main section -->
     <main>
       <!-- intro section -->
-      <section class="intropage flex flex-column">
+      <section id="home" class="intropage flex flex-column">
         <div class="intro">
           <h1>
             Hey There. <br />
             I'm Salman
           </h1>
-          <h2 class="flex">I'm a Software Developer</h2>
+          <h2 class="flex">I'm a &nbsp;<span class="multi-text"></span></h2>
           <p>
             I can help you to build a product, feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -78,7 +82,7 @@
         <!-- social elements -->
         <div class="socialintro">
           <ul class="flex">
-            <li>
+            <li style="--i:6;">
               <a
                 href="https://github.com/fpsapc"
                 target="_blank"
@@ -87,7 +91,7 @@
                 <img class="social1" src="img/Disabled.png" alt="githublink"
               /></a>
             </li>
-            <li>
+            <li style="--i:7;">
               <a
                 href="https://linkedin.com/in/salman-ahmad1987"
                 target="_blank"
@@ -96,7 +100,7 @@
                 <img class="social1" src="img/Disabled-1.png" alt="linkedinlink"
               /></a>
             </li>
-            <li>
+            <li style="--i:8;">
               <a
                 href="https://www.linkedin.com/company/vivimedia/about/"
                 target="_blank"
@@ -105,7 +109,7 @@
                 <img class="social1" src="img/Enabled.png" alt="listlink"
               /></a>
             </li>
-            <li>
+            <li style="--i:9;">
               <a
                 href="https://twitter.com/salman-ahmadkhan1987"
                 target="_blank"
@@ -114,7 +118,7 @@
                 <img class="social1" src="img/Disabled-2.png" alt="twitterlink"
               /></a>
             </li>
-            <li>
+            <li style="--i:10;">
               <a href="mailto:fpsapc@gmail.com" target="_blank" rel="noopener">
                 <img class="social1" src="img/Disabled-3.png" alt="gmaillink"
               /></a>
@@ -289,6 +293,7 @@
         </ul>
       </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -279,3 +279,11 @@ function saveFormData() {
 nameInput.addEventListener('input', saveFormData);
 emailInput.addEventListener('input', saveFormData);
 messageInput.addEventListener('input', saveFormData);
+
+let typed = new Typed(".multi-text", {
+  strings: ["Frontend Developer", "Full-Stack Developer", "Typist"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true
+})
